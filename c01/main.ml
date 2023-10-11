@@ -1,9 +1,44 @@
-module Zadanie1 = struct 
-  let flattenTwoLists (xs: 'a list) (ys: 'a list): 'a list =
-    let rec aux xs2 ys2 =
-      match xs2 with
-      | [] -> ys2
-      | h :: t -> aux t (h :: ys2)
+module Zadanie1Easy = struct
+  let flatten1 = List.fold_left (fun acc xs -> acc @ xs) []
+end
+
+module Zadanie2 = struct 
+  let count_num n = List.fold_left (fun acc x -> if x = n then acc + 1 else acc) 0
+end;;
+
+module Zadanie3 = struct 
+  let replicate str n = List.init n (fun _ -> str)
+end;;
+
+module Zadanie4 = struct 
+  let sqrList xs = List.map (fun x -> x * x) xs
+end;;
+
+module Zadanie5 = struct 
+  let palindrome xs = xs = List.rev xs
+end;;
+
+module Zadanie6 = struct 
+  let list_length = List.fold_left (fun acc _ -> acc + 1) 0
+end;;
+    
+module Zadanie7 = struct 
+  let logb2 = 
+    let rec aux acc n = 
+      if n < 2 then acc else aux (acc + 1) (n / 2)
+    in aux 0
+
+  let rec solve = function
+    | 1 -> 1
+    | n -> solve @@ logb2 n + solve n / 2
+end;;
+
+(* module Zadanie1 = struct 
+  let flatten_two_lists xs ys =
+    let rec aux xs ys =
+      match xs with
+      | [] -> ys
+      | h :: t -> aux t (h :: ys)
     in
     aux (List.rev xs) ys
 
@@ -12,36 +47,11 @@ module Zadanie1 = struct
     let rec aux lists acc =
       match lists with
       | [] -> acc
-      | h :: t -> aux t (flattenTwoLists h acc)
+      | h :: t -> aux t (flatten_two_lists h acc)
     in
     aux (List.rev xss) []
 
   (* 2 opcja *)
   let flatten1 xss =
-    List.fold_left (fun acc xs -> flattenTwoLists xs acc) [] (List.rev xss)
-end;;
-
-module Zadanie2 = struct 
-  let count_num n = List.fold_left (fun acc x -> if x = n then acc + 1 else acc) 0
-end;;
-
-    
-
-(*zadanie 6*)
-(* let rec list_length = function
-  | [] -> 0
-  | _ :: t -> 1 + list_length t *)
-
-
-(* let () =
-  let a = list_length [1; 2; 3; 4; 5] in
-  print_string (string_of_int a) *)
-
-let () =
-  let l = Zadanie1.flattenTwoLists [1;2;3] [4;5;6] in
-  List.iter (fun e -> print_string (string_of_int e)) l;
-  print_endline "";
-  
-  let l = Zadanie2.count_num 1 [1;2;3;1;1;1;1;1;1;1;1;1;1;1;1;1;1] in
-  print_string (string_of_int l);
-  print_endline "";
+    List.fold_left (fun acc xs -> flatten_two_lists xs acc) [] (List.rev xss)
+end;; *)
