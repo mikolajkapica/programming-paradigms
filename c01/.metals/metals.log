@@ -1,0 +1,52 @@
+2023.10.12 21:14:49 INFO  Started: Metals version 1.0.1 in folders '/home/mak/programming_paradigms/c01' for client Visual Studio Code 1.83.1.[0m
+Oct 12, 2023 9:14:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/mak/programming_paradigms/c01/.metals/metals (H2 2.1)
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.016s)
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Oct 12, 2023 9:14:50 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.021s)
+2023.10.12 21:14:50 INFO  time: initialize in 0.57s[0m
+2023.10.12 21:14:53 INFO  Running List(/home/mak/.local/share/coursier/bin/scala-cli, setup-ide, /home/mak/programming_paradigms/c01)[0m
+2023.10.12 21:14:53 INFO  Attempting to connect to the build server...[0m
+2023.10.12 21:14:53 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/c01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/c01)[0m
+2023.10.12 21:14:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/c01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.12 21:14:53 INFO  Attempting to connect to the build server...[0m
+2023.10.12 21:14:53 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/c01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/c01)[0m
+2023.10.12 21:14:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/c01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.12 21:14:53 INFO  time: Connected to build server in 0.47s[0m
+2023.10.12 21:14:53 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.12 21:14:53 INFO  time: Connected to build server in 0.45s[0m
+2023.10.12 21:14:53 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.12 21:14:54 INFO  Deduplicating compilation of c01_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 0.461s)[0m
+2023.10.12 21:14:53 INFO  compiling c01_bd2c96d2de (1 scala source)[0m
+2023.10.12 21:14:54 INFO  compiling c01_bd2c96d2de (1 scala source)[0m
+2023.10.12 21:14:58 INFO  time: indexed workspace in 3.72s[0m
+2023.10.12 21:14:58 INFO  time: indexed workspace in 4.59s[0m
+2023.10.12 21:14:59 INFO  Deduplicating compilation of c01_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 5.234s)[0m
+2023.10.12 21:15:00 INFO  time: compiled c01_bd2c96d2de in 5.71s[0m
+2023.10.12 21:17:53 INFO  Shutting down server[0m
+2023.10.12 21:17:53 INFO  shutting down Metals[0m
+2023.10.12 21:17:53 INFO  Shut down connection with build server.[0m
+2023.10.12 21:17:53 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/c01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/c01)[0m
+2023.10.12 21:17:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/c01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.12 21:17:53 INFO  Exiting server[0m

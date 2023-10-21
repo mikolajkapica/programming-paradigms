@@ -62,10 +62,9 @@ object zadanie2 {
 object zadanie3 {
   def replicate(str: String, n: Int): List[String] = {
     def aux(n: Int, acc: List[String]): List[String] = {
-      n match {
-        case 0 => acc
-        case _ => str :: acc
-      }
+      if n == 0 then acc
+      else if n < 0 then throw new Exception("n must be positive")
+      else aux(n-1, str :: acc)
     }
     aux(n, List())
   }
@@ -75,18 +74,7 @@ object zadanie4 {
 }
 
 object zadanie5 {
-  def palindrome(l: List[Char]): Boolean = {
-    def aux(n: Int, xs: List[Char], xsr: List[Char]): Boolean = {
-      n match {
-        case 0 => true
-        case _ => xs.head == xsr.head match {
-            case true => aux(n-1, xs.tail, xsr.tail)
-            case false => false
-          }
-      }
-    }
-    aux(l.length / 2, l, l.reverse)
-  }
+  def palindrome(l: List[Char]): Boolean = l == l.reverse
 }
 
 object zadanie6 {

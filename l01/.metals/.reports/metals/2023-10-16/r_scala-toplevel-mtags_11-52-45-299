@@ -1,0 +1,43 @@
+id: file://<WORKSPACE>/l01.scala:[688..689) in Input.VirtualFile("file://<WORKSPACE>/l01.scala", "def reverse4(x1: Int, x2: Int, x3: Int, x4: Int) = (x4, x3, x2, x1)
+
+def sumProd(s: Int, e: Int) = {
+  def aux(current: Int, sum: Int, prod: Int): Int = {
+    if (current > e) sum
+    else aux(current + 1, sum + current, prod * current)
+  }
+  aux(s, 0, 1)
+}
+
+def sieve(n: Int) = {
+    def aux(lst: List[Int], acc: List[Int]): List[Int] = {
+        lst match {
+        case Nil => acc
+        case hd :: tl => 
+            if (acc.exists(y => hd % y == 0)) aux(tl, acc)
+            else aux(tl, hd :: acc)
+        }
+    }
+    aux(List.range(2, n + 1), List())
+}
+
+def isPerfect(n: Int) = {
+    val primes = sieve(n)
+    val primes_sum = primes.foldLeft(0)(_ + _)
+    primes_sum == n
+}
+
+def [A] insert(lst: List[A], x: Int, pos: Int) = {
+    def aux(lst: List[A], x: Int, pos: Int, acc: List[A]): List[A] = {
+        lst match {
+        case Nil => (x :: acc).reverse
+        case hd :: tl => 
+            if (pos == 0) (x :: acc).reverse ++ lst
+            else aux(tl, x, pos - 1, hd :: acc)
+        }
+    }
+    aux(lst, x, pos, List())
+}
+    ")
+file://<WORKSPACE>/l01.scala:29: error: expected identifier; obtained lbracket
+def [A] insert(lst: List[A], x: Int, pos: Int) = {
+    ^

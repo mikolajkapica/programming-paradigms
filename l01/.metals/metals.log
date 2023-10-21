@@ -1,0 +1,913 @@
+2023.10.16 11:48:30 INFO  Started: Metals version 1.0.1 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/mak/programming_paradigms/l01/.metals/metals (H2 2.1)
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Oct 16, 2023 11:48:30 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.013s)
+2023.10.16 11:48:30 INFO  time: initialize in 0.46s[0m
+2023.10.16 11:48:33 INFO  Running List(/home/mak/.local/share/coursier/bin/scala-cli, setup-ide, /home/mak/programming_paradigms/l01)[0m
+2023.10.16 11:48:33 INFO  Attempting to connect to the build server...[0m
+2023.10.16 11:48:33 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.16 11:48:33 WARN  No build session currently active to reload.[0m
+2023.10.16 11:48:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.16 11:48:34 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.16 11:48:34 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.16 11:48:34 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.16 11:48:34 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.16 11:48:34 INFO  BSP server: Starting compilation server[0m
+2023.10.16 11:48:35 INFO  no build target found for /home/mak/programming_paradigms/l01/l01.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.10.16 11:48:36 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+2023.10.16 11:48:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.16 11:48:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.16 11:48:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.16 11:48:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.16 11:48:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.16 11:48:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.16 11:48:37 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.16 11:48:37 INFO  time: Connected to build server in 3.66s[0m
+2023.10.16 11:48:37 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.16 11:48:37 INFO  time: code lens generation in 5.6s[0m
+2023.10.16 11:48:37 INFO  time: code lens generation in 1.54s[0m
+2023.10.16 11:48:37 INFO  time: code lens generation in 1.56s[0m
+2023.10.16 11:48:37 INFO  time: code lens generation in 1.18s[0m
+2023.10.16 11:48:37 INFO  time: Imported build in 0.15s[0m
+2023.10.16 11:48:37 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:48:37 INFO  time: compiled l01_bd2c96d2de in 0.99s[0m
+2023.10.16 11:48:38 INFO  time: indexed workspace in 1.27s[0m
+2023.10.16 11:48:39 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:48:39 INFO  time: compiled l01_bd2c96d2de in 0.91s[0m
+2023.10.16 11:48:39 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:48:39 INFO  time: compiled l01_bd2c96d2de in 3ms[0m
+2023.10.16 11:48:40 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:48:40 INFO  time: compiled l01_bd2c96d2de in 67ms[0m
+2023.10.16 11:48:43 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:48:43 INFO  time: compiled l01_bd2c96d2de in 0.29s[0m
+Oct 16, 2023 11:49:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: token 112 out of 112
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: token 112 out of 112
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.NoSuchElementException: token 112 out of 112
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:37)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:340)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:330)
+	at scala.meta.internal.parsers.LazyTokenIterator.getNextTokenRef(LazyTokenIterator.scala:25)
+	at scala.meta.internal.parsers.LazyTokenIterator.peekToken(LazyTokenIterator.scala:69)
+	at scala.meta.internal.parsers.ScalametaParser.peekToken(ScalametaParser.scala:164)
+	at scala.meta.internal.parsers.ScalametaParser.otherMods$1(ScalametaParser.scala:3169)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3180)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3155)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:576)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:582)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:569)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:589)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:3106)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:3117)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:238)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:229)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:3119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:3122)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:3121)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$3(ScalametaParser.scala:3059)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$2(ScalametaParser.scala:3059)
+	at scala.meta.internal.parsers.ScalametaParser.getAfterOptNewLine(ScalametaParser.scala:1379)
+	at scala.meta.internal.parsers.ScalametaParser.iter$5(ScalametaParser.scala:3055)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$1(ScalametaParser.scala:3081)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$1$adapted(ScalametaParser.scala:3053)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:505)
+	at scala.meta.internal.parsers.ScalametaParser.memberParamClauseGroups(ScalametaParser.scala:3053)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3720)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:349)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:354)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3698)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3644)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3476)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3455)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4382)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4366)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4357)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4594)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4594)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4550)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:300)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:346)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4543)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4548)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:100)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:828)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.10.16 11:49:20 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:49:20 INFO  time: compiled l01_bd2c96d2de in 0.88s[0m
+Oct 16, 2023 11:49:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+2023.10.16 11:50:30 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:50:30 INFO  time: compiled l01_bd2c96d2de in 0.69s[0m
+Oct 16, 2023 11:51:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 677
+2023.10.16 11:51:19 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:51:19 INFO  time: compiled l01_bd2c96d2de in 0.43s[0m
+2023.10.16 11:51:19 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:51:20 INFO  time: compiled l01_bd2c96d2de in 0.35s[0m
+2023.10.16 11:51:22 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:51:22 INFO  time: compiled l01_bd2c96d2de in 0.36s[0m
+2023.10.16 11:52:31 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:52:31 INFO  time: compiled l01_bd2c96d2de in 0.17s[0m
+2023.10.16 11:52:45 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:52:45 INFO  time: compiled l01_bd2c96d2de in 0.11s[0m
+2023.10.16 11:53:21 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:53:21 INFO  time: compiled l01_bd2c96d2de in 0.69s[0m
+2023.10.16 11:53:47 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:53:47 INFO  time: compiled l01_bd2c96d2de in 0.27s[0m
+2023.10.16 11:54:09 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:09 INFO  time: compiled l01_bd2c96d2de in 0.27s[0m
+2023.10.16 11:54:18 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:18 INFO  time: compiled l01_bd2c96d2de in 0.12s[0m
+2023.10.16 11:54:22 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:22 INFO  time: compiled l01_bd2c96d2de in 0.22s[0m
+2023.10.16 11:54:27 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:27 INFO  time: compiled l01_bd2c96d2de in 0.1s[0m
+2023.10.16 11:54:33 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:33 INFO  time: compiled l01_bd2c96d2de in 94ms[0m
+2023.10.16 11:54:54 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:54:54 INFO  time: compiled l01_bd2c96d2de in 0.27s[0m
+2023.10.16 11:55:04 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:04 INFO  time: compiled l01_bd2c96d2de in 0.25s[0m
+Oct 16, 2023 11:55:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1578
+2023.10.16 11:55:29 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:29 INFO  time: compiled l01_bd2c96d2de in 98ms[0m
+2023.10.16 11:55:33 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:33 INFO  time: compiled l01_bd2c96d2de in 91ms[0m
+2023.10.16 11:55:37 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:37 INFO  time: compiled l01_bd2c96d2de in 0.11s[0m
+2023.10.16 11:55:46 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:46 INFO  time: compiled l01_bd2c96d2de in 0.26s[0m
+2023.10.16 11:55:59 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:55:59 INFO  time: compiled l01_bd2c96d2de in 0.18s[0m
+2023.10.16 11:56:27 WARN  no build target for: /home/mak/programming_paradigms/l01/l01_tests.scala.scala[0m
+2023.10.16 11:56:27 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala.scala[0m
+2023.10.16 11:56:27 INFO  Disconnecting from scala-cli session...[0m
+2023.10.16 11:56:27 INFO  Shut down connection with build server.[0m
+2023.10.16 11:56:27 INFO  Attempting to connect to the build server...[0m
+2023.10.16 11:56:27 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.16 11:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.16 11:56:27 INFO  time: Connected to build server in 0.34s[0m
+2023.10.16 11:56:27 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.16 11:56:27 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 11:56:27 INFO  time: compiled l01_bd2c96d2de in 31ms[0m
+2023.10.16 11:56:28 INFO  time: indexed workspace in 0.82s[0m
+2023.10.16 11:56:29 INFO  Refreshed build after change[0m
+2023.10.16 11:56:29 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala.scala[0m
+2023.10.16 11:56:43 INFO  Disconnecting from scala-cli session...[0m
+2023.10.16 11:56:43 INFO  Shut down connection with build server.[0m
+2023.10.16 11:56:43 INFO  Attempting to connect to the build server...[0m
+2023.10.16 11:56:43 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.16 11:56:43 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.16 11:56:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.16 11:56:43 INFO  time: Connected to build server in 0.32s[0m
+2023.10.16 11:56:43 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.16 11:56:45 INFO  time: indexed workspace in 0.89s[0m
+2023.10.16 11:56:46 INFO  Refreshed build after change[0m
+2023.10.16 11:57:15 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:14:39 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:15:27 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:15:27 INFO  time: compiled l01_bd2c96d2de in 0.11s[0m
+2023.10.16 12:15:46 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:15:46 INFO  time: compiled l01_bd2c96d2de in 91ms[0m
+2023.10.16 12:24:04 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:24:04 INFO  time: compiled l01_bd2c96d2de in 0.22s[0m
+2023.10.16 12:29:44 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:48 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:48 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:49 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:49 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:51 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:55 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:56 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+2023.10.16 12:29:56 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01_tests.scala[0m
+Oct 16, 2023 12:30:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2256
+Oct 16, 2023 12:30:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2562
+2023.10.16 12:31:05 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:31:05 INFO  time: compiled l01_bd2c96d2de in 84ms[0m
+2023.10.16 12:31:06 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:31:06 INFO  time: compiled l01_bd2c96d2de in 67ms[0m
+2023.10.16 12:31:07 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:31:07 INFO  time: compiled l01_bd2c96d2de in 62ms[0m
+2023.10.16 12:31:11 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:31:11 INFO  time: compiled l01_bd2c96d2de in 0.1s[0m
+2023.10.16 12:52:50 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:52:50 INFO  time: compiled l01_bd2c96d2de in 0.21s[0m
+2023.10.16 12:52:53 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:52:53 INFO  time: compiled l01_bd2c96d2de in 0.17s[0m
+2023.10.16 12:53:42 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:53:42 INFO  time: compiled l01_bd2c96d2de in 0.19s[0m
+2023.10.16 12:53:51 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:53:51 INFO  time: compiled l01_bd2c96d2de in 0.16s[0m
+2023.10.16 12:54:06 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:54:06 INFO  time: compiled l01_bd2c96d2de in 0.2s[0m
+2023.10.16 12:54:36 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:54:36 INFO  time: compiled l01_bd2c96d2de in 0.17s[0m
+2023.10.16 12:55:51 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:55:51 INFO  time: compiled l01_bd2c96d2de in 64ms[0m
+2023.10.16 12:56:02 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:02 INFO  time: compiled l01_bd2c96d2de in 56ms[0m
+2023.10.16 12:56:09 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:09 INFO  time: compiled l01_bd2c96d2de in 54ms[0m
+2023.10.16 12:56:17 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:17 INFO  time: compiled l01_bd2c96d2de in 52ms[0m
+2023.10.16 12:56:26 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:26 INFO  time: compiled l01_bd2c96d2de in 50ms[0m
+2023.10.16 12:56:45 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:45 INFO  time: compiled l01_bd2c96d2de in 0.21s[0m
+2023.10.16 12:56:45 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:47 INFO  time: compiled l01_bd2c96d2de in 0.19s[0m
+2023.10.16 12:56:55 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:56:55 INFO  time: compiled l01_bd2c96d2de in 48ms[0m
+2023.10.16 12:57:00 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:57:00 INFO  time: compiled l01_bd2c96d2de in 0.14s[0m
+2023.10.16 12:57:15 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:57:15 INFO  time: compiled l01_bd2c96d2de in 0.13s[0m
+2023.10.16 12:57:29 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:57:29 INFO  time: compiled l01_bd2c96d2de in 0.13s[0m
+2023.10.16 12:57:45 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:57:45 INFO  time: compiled l01_bd2c96d2de in 0.12s[0m
+2023.10.16 12:58:00 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:58:00 INFO  time: compiled l01_bd2c96d2de in 0.12s[0m
+2023.10.16 12:59:49 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 12:59:49 INFO  time: compiled l01_bd2c96d2de in 0.15s[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-57-290
+2023.10.16 12:59:57 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-57-544
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-57-736
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-57-970
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-57-986
+2023.10.16 12:59:57 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-58-087
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-58-535
+2023.10.16 12:59:58 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-59-163
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-59-252
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-59-343
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4(x1: Int, x2: Int, x3: Int, x4: Int): (Int, Int, Int, Int) =
+    (x4, x3, x2, x1)
+  def reverse4_tests =
+    reverse4(1, 2, 3, 4) == (4, 3, 2, 1) && reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s > e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests = sumProd(1, 3) == (6, 6) && sumProd(1, 3) != (6, 7)
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    isPerfect(6) == true && isPerfect(5) == false && isPerfect(-1) == false &&
+      isPerfect(0) == false
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], x: A, pos: Int, acc: List[A]): List[A] =
+        {
+          lst match
+            {
+              case Nil =>
+                (x :: acc).reverse
+              case hd :: tl =>
+                if (pos == 0) (x :: acc).reverse ++ lst else
+                  aux(tl, x, pos - 1, hd :: acc)
+            }
+        }
+      aux(lst, x, pos, List())
+    }
+}
+Oct 16, 2023 12:59:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-16/r_compiler-error_12-59-59-407
+2023.10.16 12:59:59 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+2023.10.16 13:00:01 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 13:00:01 INFO  time: compiled l01_bd2c96d2de in 0.13s[0m
+2023.10.16 13:01:09 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 13:01:09 INFO  time: compiled l01_bd2c96d2de in 93ms[0m
+2023.10.16 13:01:20 INFO  Disconnecting from scala-cli session...[0m
+2023.10.16 13:01:20 INFO  Shut down connection with build server.[0m
+2023.10.16 13:01:20 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.16 13:01:20 INFO  Attempting to connect to the build server...[0m
+2023.10.16 13:01:20 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.16 13:01:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.16 13:01:20 INFO  time: Connected to build server in 0.39s[0m
+2023.10.16 13:01:20 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.16 13:01:20 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.16 13:01:20 INFO  time: compiled l01_bd2c96d2de in 0.19s[0m
+2023.10.16 13:01:21 INFO  time: indexed workspace in 0.85s[0m
+2023.10.16 13:01:22 INFO  Refreshed build after change[0m
+2023.10.16 13:21:27 INFO  Shutting down server[0m
+2023.10.16 13:21:27 INFO  shutting down Metals[0m
+2023.10.16 13:21:27 INFO  Shut down connection with build server.[0m
+2023.10.16 13:21:27 INFO  Exiting server[0m
+2023.10.22 01:25:32 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.22 01:25:33 INFO  Attempting to connect to the build server...[0m
+2023.10.22 01:25:33 WARN  No build session currently active to reload.[0m
+2023.10.22 01:25:33 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 01:25:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 01:25:33 INFO  time: Connected to build server in 0.64s[0m
+2023.10.22 01:25:34 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 01:25:33 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+Oct 22, 2023 1:25:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.10.22 01:25:36 WARN  no build target for: /home/mak/programming_paradigms/l01/l01.scala[0m
+2023.10.22 01:25:37 INFO  no build target found for /home/mak/programming_paradigms/l01/l01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.22 01:25:38 INFO  time: indexed workspace in 1.24s[0m
+2023.10.22 01:25:39 INFO  Shutting down server[0m
+2023.10.22 01:25:39 INFO  shutting down Metals[0m
+2023.10.22 01:25:39 INFO  Shut down connection with build server.[0m
+2023.10.22 01:25:39 INFO  Failed to run request with params ScalaTestClassesResult[0m
+2023.10.22 01:25:39 INFO  Failed to run request with params ScalaMainClassesResult[0m
+2023.10.22 01:25:39 INFO  scala-cli should support `buildTarget/jvmRunEnvironment`, but it fails.[0m
+2023.10.22 01:25:40 INFO  Exiting server[0m
