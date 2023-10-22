@@ -911,3 +911,3156 @@ WARNING: Unmatched cancel notification for request id 7
 2023.10.22 01:25:39 INFO  Failed to run request with params ScalaMainClassesResult[0m
 2023.10.22 01:25:39 INFO  scala-cli should support `buildTarget/jvmRunEnvironment`, but it fails.[0m
 2023.10.22 01:25:40 INFO  Exiting server[0m
+2023.10.22 11:55:51 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.22 11:55:52 INFO  Attempting to connect to the build server...[0m
+2023.10.22 11:55:52 WARN  No build session currently active to reload.[0m
+2023.10.22 11:55:52 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 11:55:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 11:55:53 INFO  BSP server: Starting compilation server[0m
+Oct 22, 2023 11:55:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.10.22 11:55:55 INFO  time: Connected to build server in 2.37s[0m
+2023.10.22 11:55:55 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 11:55:55 INFO  no build target found for /home/mak/programming_paradigms/l01/l01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.22 11:55:57 INFO  time: indexed workspace in 1.16s[0m
+2023.10.22 11:56:00 INFO  Shutting down server[0m
+2023.10.22 11:56:00 INFO  shutting down Metals[0m
+2023.10.22 11:56:00 INFO  BSP server: Oct 22, 2023 11:56:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.10.22 11:56:00 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.10.22 11:56:00 INFO  Shut down connection with build server.[0m
+2023.10.22 11:56:00 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.10.22 11:56:00 INFO  Exiting server[0m
+2023.10.22 13:29:48 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.22 13:29:49 INFO  Attempting to connect to the build server...[0m
+2023.10.22 13:29:49 WARN  No build session currently active to reload.[0m
+2023.10.22 13:29:49 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 13:29:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 13:29:49 INFO  BSP server: Starting compilation server[0m
+2023.10.22 13:29:51 INFO  time: Connected to build server in 2.06s[0m
+2023.10.22 13:29:51 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 13:29:54 INFO  time: indexed workspace in 2.39s[0m
+Oct 22, 2023 1:30:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 22, 2023 1:30:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+Oct 22, 2023 1:30:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+Oct 22, 2023 1:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 242
+2023.10.22 13:30:50 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:30:52 INFO  time: compiled l01_bd2c96d2de in 1.47s[0m
+2023.10.22 13:30:56 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:30:57 INFO  time: compiled l01_bd2c96d2de in 1.26s[0m
+2023.10.22 13:36:31 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:36:31 INFO  time: compiled l01_bd2c96d2de in 0.79s[0m
+2023.10.22 13:38:41 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:38:41 INFO  time: compiled l01_bd2c96d2de in 0.61s[0m
+2023.10.22 13:38:53 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:38:53 INFO  time: compiled l01_bd2c96d2de in 0.49s[0m
+Oct 22, 2023 1:40:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 554
+2023.10.22 13:42:34 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:42:34 INFO  time: compiled l01_bd2c96d2de in 0.53s[0m
+2023.10.22 13:44:25 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:44:25 INFO  time: compiled l01_bd2c96d2de in 0.46s[0m
+2023.10.22 13:45:00 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:45:00 INFO  time: compiled l01_bd2c96d2de in 0.42s[0m
+2023.10.22 13:45:22 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:45:22 INFO  time: compiled l01_bd2c96d2de in 0.36s[0m
+Oct 22, 2023 1:46:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 844
+2023.10.22 13:46:17 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:46:17 INFO  time: compiled l01_bd2c96d2de in 0.37s[0m
+2023.10.22 13:47:48 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:47:48 INFO  time: compiled l01_bd2c96d2de in 0.16s[0m
+2023.10.22 13:48:00 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:48:00 INFO  time: compiled l01_bd2c96d2de in 0.72s[0m
+2023.10.22 13:48:15 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:48:15 INFO  time: compiled l01_bd2c96d2de in 0.36s[0m
+2023.10.22 13:49:40 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:49:40 INFO  time: compiled l01_bd2c96d2de in 0.41s[0m
+2023.10.22 13:49:57 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:49:57 INFO  time: compiled l01_bd2c96d2de in 0.35s[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-39-763.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-40-177.md
+2023.10.22 13:50:40 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-40-705.md
+2023.10.22 13:50:40 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-105.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-251.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-276.md
+2023.10.22 13:50:40 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-329.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-514.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-797.md
+2023.10.22 13:50:41 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-41-912.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-42-048.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-42-392.md
+2023.10.22 13:50:42 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-43-085.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-43-116.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-43-534.md
+2023.10.22 13:50:43 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-057.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-246.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-316.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-410.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-481.md
+2023.10.22 13:50:44 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-44-583.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-45-050.md
+2023.10.22 13:50:45 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-45-409.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-45-759.md
+2023.10.22 13:50:45 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-45-807.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-46-192.md
+2023.10.22 13:50:45 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-46-901.md
+2023.10.22 13:50:46 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-48-927.md
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-49-010.md
+2023.10.22 13:50:49 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+error while checking new IllegalArgumentException(null)
+error while checking throw new IllegalArgumentException(null)
+error while checking if (n < 1) throw new IllegalArgumentException(null)
+error while checking {
+  if (n < 1) throw new IllegalArgumentException(null)
+}
+error while checking def isPerfect(n: Int): Boolean =
+  {
+    if (n < 1) throw new IllegalArgumentException(null)
+  }
+error while checking package <empty> {
+  def reverse4[A](x1: A, x2: A, x3: A, x4: A): (A, A, A, A) = (x4, x3, x2, x1)
+  def reverse4_tests =
+    {
+      val test1 = reverse4(1, 2, 3, 4) == (4, 3, 2, 1)
+      val test2 = reverse4(1, 2, 3, 4) != (1, 2, 3, 4)
+      val test3 = reverse4(0, 0, 0, 0) == (0, 0, 0, 0)
+      val test4 = reverse4(-1, -2, -3, -4) == (-4, -3, -2, -1)
+      test1 && test2 && test3 && test4
+    }
+  def sumProd(s: Int, e: Int): (Int, Int) =
+    {
+      if (s >= e) throw new IllegalArgumentException("s > e")
+      def aux(current: Int, sum: Int, prod: Int): (Int, Int) =
+        {
+          if (current > e) (sum, prod) else
+            aux(current + 1, sum + current, prod * current)
+        }
+      aux(s, 0, 1)
+    }
+  def sumProd_tests =
+    {
+      val test1 = sumProd(1, 5) == (15, 120)
+      val test2 = sumProd(1, 2) == (3, 2)
+      val test3 = sumProd(1, 10) == (55, 3628800)
+      val test4 =
+        sumProd(-4, 10) ==
+          (
+            -4 + (-3) + (-2) + (-1) + 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+              ,
+          0)
+      val test5 =
+        sumProd(-4, -1) == (-4 + (-3) + (-2) + (-1), (-4) * (-3) * (-2) * (-1))
+      val test6 = sumProd(1, 5) == (15, 120)
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def isPerfect(n: Int): Boolean =
+    {
+      if (n < 1) throw new IllegalArgumentException(null)
+    }
+  def isPerfect_tests =
+    {
+      val test1 = isPerfect(6) == true
+      val test2 = isPerfect(28) == true
+      val test3 = isPerfect(496) == true
+      val test4 = isPerfect(7) == false
+      val test5 = isPerfect(-6) == false
+      val test6 = isPerfect(0) == false
+      test1 && test2 && test3 && test4 && test5 && test6
+    }
+  def insert[A](lst: List[A], x: A, pos: Int): List[A] =
+    {
+      def aux(lst: List[A], current: Int): List[A] =
+        lst match
+          {
+            case Nil =>
+              List(x)
+            case h :: t =>
+              if (current == pos) x :: lst else h :: aux(t, current + 1)
+          }
+      if pos < 0 then x :: lst else aux(lst, 0)
+    }
+  def insert_tests =
+    {
+      val test1 = insert(List(1, 2, 3, 4), 0, 2) == List(1, 2, 0, 3, 4)
+      val test2 = insert(List(1, 2, 3, 4), 0, 0) == List(0, 1, 2, 3, 4)
+      val test3 = insert(List(), 0, 4) == List(0)
+      val test4 = insert(List(1), 0, 5) == List(1, 0)
+      val test5 = insert(List(1, -2, 3, 4), 0, -1) == List(0, 1, -2, 3, 4)
+      test1 && test2 && test3 && test4 && test5
+    }
+  module object Main {
+    def main(args: Array[String]): Unit =
+      {
+        println("reverse4_tests: " + reverse4_tests)
+        println("sumProd_tests: " + sumProd_tests)
+        println("isPerfect_tests: " + isPerfect_tests)
+        println("insert_tests: " + insert_tests)
+      }
+  }
+}
+Oct 22, 2023 1:50:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l01/.metals/.reports/metals-full/2023-10-22/r_compiler-error_(l01_bd2c96d2de)_13-50-50-156.md
+2023.10.22 13:50:50 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/l01.scala[0m
+2023.10.22 13:50:51 ERROR Failed to tokenize input for semantic tokens for /home/mak/programming_paradigms/l01/l01.scala
+scala.meta.tokenizers.TokenizeException: <input>:29: error: unclosed string literal
+    if (n < 1) throw new IllegalArgumentException("n must be natural (n > 0)""
+                                                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.10.22 13:50:54 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:50:54 INFO  time: compiled l01_bd2c96d2de in 0.36s[0m
+2023.10.22 13:51:51 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:51:51 INFO  time: compiled l01_bd2c96d2de in 0.4s[0m
+Oct 22, 2023 1:51:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1405
+2023.10.22 13:51:59 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:51:59 INFO  time: compiled l01_bd2c96d2de in 0.31s[0m
+2023.10.22 13:56:35 INFO  Disconnecting from scala-cli session...[0m
+2023.10.22 13:56:35 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.22 13:56:35 INFO  Shut down connection with build server.[0m
+2023.10.22 13:56:35 INFO  BSP server: Oct 22, 2023 1:56:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.10.22 13:56:35 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.10.22 13:56:35 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.10.22 13:56:35 INFO  BSP server:   "method": "build/exit",[0m
+2023.10.22 13:56:35 INFO  BSP server:   "params": null[0m
+2023.10.22 13:56:35 INFO  BSP server: }[0m
+2023.10.22 13:56:35 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.10.22 13:56:35 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	... 13 more[0m
+2023.10.22 13:56:35 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2023.10.22 13:56:35 INFO  BSP server: 	... 15 more[0m
+2023.10.22 13:56:35 INFO  BSP server: [0m
+2023.10.22 13:56:35 WARN  no build target for: /home/mak/programming_paradigms/l01/[PON1115-Mikolaj-Kapica]_l01.scala[0m
+2023.10.22 13:56:35 INFO  Attempting to connect to the build server...[0m
+2023.10.22 13:56:35 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 13:56:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 13:56:35 INFO  time: Connected to build server in 0.65s[0m
+2023.10.22 13:56:35 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 13:56:35 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:56:38 INFO  time: indexed workspace in 1.56s[0m
+2023.10.22 13:56:38 INFO  no build target found for /home/mak/programming_paradigms/l01/[PON1115-Mikolaj-Kapica]_l01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.22 13:56:40 INFO  time: compiled l01_bd2c96d2de in 3.64s[0m
+2023.10.22 13:56:40 INFO  Refreshed build after change[0m
+2023.10.22 13:56:51 INFO  Disconnecting from scala-cli session...[0m
+2023.10.22 13:56:51 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.22 13:56:51 INFO  Shut down connection with build server.[0m
+2023.10.22 13:56:51 WARN  no build target for: /home/mak/programming_paradigms/l01/[PON1115][Mikolaj-Kapica]_l01.scala[0m
+2023.10.22 13:56:51 INFO  Attempting to connect to the build server...[0m
+2023.10.22 13:56:51 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 13:56:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 13:56:51 INFO  time: Connected to build server in 0.63s[0m
+2023.10.22 13:56:51 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 13:56:51 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:56:52 INFO  time: compiled l01_bd2c96d2de in 0.28s[0m
+2023.10.22 13:56:53 INFO  time: indexed workspace in 1.31s[0m
+2023.10.22 13:56:54 INFO  Refreshed build after change[0m
+2023.10.22 13:57:18 INFO  Disconnecting from scala-cli session...[0m
+2023.10.22 13:57:18 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.22 13:57:18 INFO  BSP server: Oct 22, 2023 1:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError[0m
+2023.10.22 13:57:18 INFO  BSP server: SEVERE: Internal error: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  Failed to run request with params ScalaMainClassesResult
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 13 more[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.buildTargetScalaMainClasses(BuildServerProxy.scala:72)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 15 more[0m
+2023.10.22 13:57:18 INFO  BSP server: [0m
+2023.10.22 13:57:18 INFO  BSP server: Oct 22, 2023 1:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError[0m
+2023.10.22 13:57:18 INFO  BSP server: SEVERE: Internal error: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 13 more[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.buildTargetScalaTestClasses(BuildServerProxy.scala:68)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 15 more[0m
+2023.10.22 13:57:18 INFO  BSP server: [0m
+2023.10.22 13:57:18 INFO  BSP server: Oct 22, 2023 1:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError[0m
+2023.10.22 13:57:18 INFO  BSP server: SEVERE: Internal error: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.10.22 13:57:18 INFO  Shut down connection with build server.[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.10.22 13:57:18 INFO  scala-cli should support `buildTarget/jvmRunEnvironment`, but it fails.
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.10.22 13:57:18 INFO  Failed to run request with params ScalaTestClassesResult
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 13 more[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.jvmRunEnvironment(BuildServerProxy.scala:98)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 15 more[0m
+2023.10.22 13:57:18 INFO  BSP server: [0m
+2023.10.22 13:57:18 INFO  BSP server: Oct 22, 2023 1:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.10.22 13:57:18 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.10.22 13:57:18 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.10.22 13:57:18 INFO  BSP server:   "method": "build/exit",[0m
+2023.10.22 13:57:18 INFO  BSP server:   "params": null[0m
+2023.10.22 13:57:18 INFO  BSP server: }[0m
+2023.10.22 13:57:18 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 13 more[0m
+2023.10.22 13:57:18 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.10.22 13:57:18 WARN  no build target for: /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_l01.scala[0m
+2023.10.22 13:57:18 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2023.10.22 13:57:18 INFO  BSP server: 	... 15 more[0m
+2023.10.22 13:57:18 INFO  BSP server: [0m
+2023.10.22 13:57:18 INFO  Attempting to connect to the build server...[0m
+2023.10.22 13:57:18 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 13:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 13:57:18 INFO  time: Connected to build server in 0.51s[0m
+2023.10.22 13:57:18 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 13:57:18 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 13:57:19 INFO  time: compiled l01_bd2c96d2de in 0.29s[0m
+2023.10.22 13:57:20 INFO  time: indexed workspace in 1.41s[0m
+2023.10.22 13:57:21 INFO  Refreshed build after change[0m
+2023.10.22 14:00:42 INFO  Disconnecting from scala-cli session...[0m
+2023.10.22 14:00:42 INFO  Shut down connection with build server.[0m
+2023.10.22 14:00:42 INFO  Attempting to connect to the build server...[0m
+2023.10.22 14:00:42 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 14:00:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 14:00:42 INFO  time: Connected to build server in 0.58s[0m
+2023.10.22 14:00:42 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 14:00:42 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.22 14:00:43 INFO  time: compiled l01_bd2c96d2de in 0.38s[0m
+2023.10.22 14:00:44 INFO  time: indexed workspace in 1.34s[0m
+2023.10.22 14:00:44 WARN  no build target for: /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_l01.scala[0m
+2023.10.22 14:00:46 INFO  time: code lens generation in 1.39s[0m
