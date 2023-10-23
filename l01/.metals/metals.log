@@ -4138,3 +4138,7 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 2023.10.23 11:19:27 INFO  time: compiled l01_bd2c96d2de in 0.46s[0m
 2023.10.23 11:19:30 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
 2023.10.23 11:19:30 INFO  time: compiled l01_bd2c96d2de in 0.79s[0m
+2023.10.23 11:23:13 INFO  Shutting down server[0m
+2023.10.23 11:23:13 INFO  shutting down Metals[0m
+2023.10.23 11:23:13 INFO  Shut down connection with build server.[0m
+2023.10.23 11:23:13 INFO  Exiting server[0m

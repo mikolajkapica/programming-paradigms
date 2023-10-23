@@ -47,10 +47,9 @@ def isPerfect_tests =
 
 def insert[A](lst: List[A], x: A, pos: Int): List[A] = {
     def aux(lst: List[A], current: Int): List[A] =
-        lst match {
-            case Nil => List(x)
-            case h :: t => if (current == pos) x :: lst else h :: aux(t, current + 1)
-        }
+        if lst.isEmpty then List(x)
+        else if (current == pos) then x :: lst
+        else lst.head :: aux(lst.tail, current + 1)
     if pos < 0 then x :: lst 
     else aux(lst, 0)
 }

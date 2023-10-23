@@ -43,11 +43,9 @@ let isPerfect_tests =
 
 let insert lst x pos = 
   let rec aux lst current =
-    match lst with
-    | [] -> [x]
-    | hd :: tl ->
-      if current = pos then x :: lst
-      else hd :: aux tl (current + 1)
+    if lst = [] then [x]
+    else if current = pos then x :: lst
+    else List.hd lst :: aux (List.tl lst) (current + 1)
   in
   if pos < 0 then x :: lst 
   else aux lst 0
