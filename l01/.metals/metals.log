@@ -4064,3 +4064,77 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 2023.10.22 14:00:44 INFO  time: indexed workspace in 1.34s[0m
 2023.10.22 14:00:44 WARN  no build target for: /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_l01.scala[0m
 2023.10.22 14:00:46 INFO  time: code lens generation in 1.39s[0m
+2023.10.22 14:13:46 INFO  Refreshed build after change[0m
+2023.10.22 14:13:47 INFO  Shutting down server[0m
+2023.10.22 14:13:47 INFO  shutting down Metals[0m
+2023.10.22 14:13:47 INFO  Shut down connection with build server.[0m
+2023.10.22 14:13:47 INFO  Exiting server[0m
+2023.10.22 23:34:39 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.22 23:34:40 WARN  No build session currently active to reload.[0m
+2023.10.22 23:34:40 INFO  Attempting to connect to the build server...[0m
+2023.10.22 23:34:40 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 23:34:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 23:34:40 INFO  BSP server: Starting compilation server[0m
+2023.10.22 23:34:41 INFO  Shutting down server[0m
+2023.10.22 23:34:41 INFO  shutting down Metals[0m
+2023.10.22 23:34:41 INFO  Exiting server[0m
+2023.10.22 23:36:46 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.22 23:36:47 WARN  No build session currently active to reload.[0m
+2023.10.22 23:36:47 INFO  Attempting to connect to the build server...[0m
+2023.10.22 23:36:47 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.22 23:36:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.22 23:36:47 INFO  time: Connected to build server in 0.54s[0m
+2023.10.22 23:36:47 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.22 23:36:49 INFO  time: indexed workspace in 2.13s[0m
+2023.10.22 23:38:14 INFO  Shutting down server[0m
+2023.10.22 23:38:14 INFO  shutting down Metals[0m
+2023.10.22 23:38:14 INFO  Shut down connection with build server.[0m
+2023.10.22 23:38:14 INFO  Exiting server[0m
+2023.10.23 10:58:44 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.23 10:58:46 INFO  Attempting to connect to the build server...[0m
+2023.10.23 10:58:46 WARN  No build session currently active to reload.[0m
+2023.10.23 10:58:46 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.23 10:58:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.23 10:59:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.10.23 10:59:46 WARN  Retrying connection to the build server scala-cli[0m
+2023.10.23 10:59:46 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.23 10:59:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.23 10:59:47 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.23 10:59:47 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.23 10:59:47 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.23 10:59:47 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.23 10:59:47 INFO  BSP server: Starting compilation server[0m
+2023.10.23 11:00:08 INFO  no build target found for /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.23 11:00:14 WARN  no build target for: /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala[0m
+2023.10.23 11:00:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.10.23 11:00:46 WARN  Retrying connection to the build server scala-cli[0m
+2023.10.23 11:00:46 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.23 11:00:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.23 11:01:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.10.23 11:01:46 WARN  Retrying connection to the build server scala-cli[0m
+2023.10.23 11:01:46 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.23 11:01:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.23 11:02:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.10.23 11:02:46 WARN  Retrying connection to the build server scala-cli[0m
+2023.10.23 11:02:46 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.23 11:02:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.23 11:02:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.23 11:02:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.23 11:02:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.23 11:02:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.23 11:02:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.23 11:02:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.23 11:02:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.23 11:02:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.23 11:02:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.23 11:02:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.23 11:02:47 INFO  time: Connected to build server in 4m1s[0m
+2023.10.23 11:02:47 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.23 11:02:47 INFO  time: Imported build in 0.13s[0m
+2023.10.23 11:02:49 INFO  time: indexed workspace in 2.25s[0m
+2023.10.23 11:17:52 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.23 11:17:56 INFO  time: compiled l01_bd2c96d2de in 3.91s[0m
+2023.10.23 11:19:27 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.23 11:19:27 INFO  time: compiled l01_bd2c96d2de in 0.46s[0m
+2023.10.23 11:19:30 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.23 11:19:30 INFO  time: compiled l01_bd2c96d2de in 0.79s[0m

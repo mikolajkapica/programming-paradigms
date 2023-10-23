@@ -10,18 +10,17 @@ let reverse4_tests =
 let sumProd s e = 
   if (s >= e) then raise (Invalid_argument "s >= e") else
   let rec aux current (sum, prod) = 
-    if current > e then (sum, prod)
+    if current >= e then (sum, prod)
     else aux (current + 1) (sum + current, prod * current)
   in aux s (0, 1)
 
 let sumProd_tests =
-  let test1 = sumProd 1 5 = (15, 120)
-  and test2 = sumProd 1 2 = (3, 2)
-  and test3 = sumProd 1 10 = (55, 3628800)
-  and test4 = sumProd (-4) 10 = (-4-3-2-1+0+1+2+3+4+5+6+7+8+9+10, 0)
-  and test5 = sumProd (-4) (-1) = (-4-3-2-1, (-4)*(-3)*(-2)*(-1))
-  and test6 = sumProd 1 5 = (15, 120)
-  in test1 && test2 && test3 && test4 && test5 && test6
+  let test1 = sumProd 1 5 = (1+2+3+4, 1*2*3*4)
+  and test2 = sumProd 1 2 = (1, 1)
+  and test3 = sumProd 1 10 = (1+2+3+4+5+6+7+8+9, 1*2*3*4*5*6*7*8*9)
+  and test4 = sumProd (-4) 10 = (-4-3-2-1+0+1+2+3+4+5+6+7+8+9, (-4)*(-3)*(-2)*(-1)*0*1*2*3*4*5*6*7*8*9)
+  and test5 = sumProd (-4) (-1) = (-4-3-2, (-4)*(-3)*(-2))
+  in test1 && test2 && test3 && test4 && test5
 
 let isPerfect n = 
   if (n < 1) then raise (Invalid_argument "n must be natural (n > 0)") else

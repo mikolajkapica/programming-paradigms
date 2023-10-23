@@ -10,20 +10,19 @@ def reverse4_tests =
 def sumProd(s: Int, e: Int): (Int, Int) = {
   if (s >= e) throw new IllegalArgumentException("s > e")
   def aux(current: Int, sum: Int, prod: Int): (Int, Int) = {
-    if (current > e) (sum, prod)
+    if (current >= e) (sum, prod)
     else aux(current + 1, sum + current, prod * current)
   }
   aux(s, 0, 1)
 }
 
 def sumProd_tests =
-    val test1 = sumProd(1, 5) == (15, 120)
-    val test2 = sumProd(1, 2) == (3, 2)
-    val test3 = sumProd(1, 10) == (55, 3628800)
-    val test4 = sumProd(-4, 10) == (-4+(-3)+(-2)+(-1)+0+1+2+3+4+5+6+7+8+9+10, 0)
-    val test5 = sumProd(-4, -1) == (-4+(-3)+(-2)+(-1), (-4)*(-3)*(-2)*(-1))
-    val test6 = sumProd(1, 5) == (15, 120)
-    test1 && test2 && test3 && test4 && test5 && test6
+    val test1 = sumProd(1, 5) == (1+2+3+4, 1*2*3*4)
+    val test2 = sumProd(1, 2) == (1, 1)
+    val test3 = sumProd(1, 10) == (1+2+3+4+5+6+7+8+9, 1*2*3*4*5*6*7*8*9)
+    val test4 = sumProd(-4, 10) == (-4+(-3)+(-2)+(-1)+0+1+2+3+4+5+6+7+8+9, (-4)*(-3)*(-2)*(-1)*0*1*2*3*4*5*6*7*8*9)
+    val test5 = sumProd(-4, -1) == (-4+(-3)+(-2), (-4)*(-3)*(-2))
+    test1 && test2 && test3 && test4 && test5
 
 def isPerfect(n: Int): Boolean = {
     if (n < 1) throw new IllegalArgumentException("n must be natural (n > 0)")
