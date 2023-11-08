@@ -1,0 +1,1095 @@
+2023.10.31 00:21:46 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.83.1.[0m
+2023.10.31 00:21:49 INFO  Running List(/home/mak/.local/share/coursier/bin/scala-cli, setup-ide, /home/mak/programming_paradigms/l02)[0m
+2023.10.31 00:21:49 INFO  Attempting to connect to the build server...[0m
+2023.10.31 00:21:49 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.10.31 00:21:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.31 00:21:50 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.31 00:21:50 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.31 00:21:50 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.31 00:21:50 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.31 00:21:50 INFO  BSP server: Starting compilation server[0m
+2023.10.31 00:21:50 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.31 00:21:52 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.10.31 00:21:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.31 00:21:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.31 00:21:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.31 00:21:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.31 00:21:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.31 00:21:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.31 00:21:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.31 00:21:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.31 00:21:53 INFO  time: Connected to build server in 3.72s[0m
+2023.10.31 00:21:53 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.31 00:21:53 INFO  time: Imported build in 0.16s[0m
+2023.10.31 00:21:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.10.31 00:21:55 INFO  time: indexed workspace in 2.22s[0m
+2023.10.31 00:21:57 INFO  time: compiled l02_bd2c96d2de in 3.55s[0m
+2023.10.31 00:21:57 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.10.31 00:21:57 INFO  time: compiled l02_bd2c96d2de in 0.61s[0m
+Oct 31, 2023 12:23:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 12:23:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.31 00:25:53 INFO  Shutting down server[0m
+2023.10.31 00:25:53 INFO  shutting down Metals[0m
+2023.10.31 00:25:53 INFO  Shut down connection with build server.[0m
+2023.10.31 00:25:53 INFO  Exiting server[0m
+2023.10.31 11:33:52 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.83.1.[0m
+2023.10.31 11:33:54 INFO  Attempting to connect to the build server...[0m
+2023.10.31 11:33:54 WARN  No build session currently active to reload.[0m
+2023.10.31 11:33:54 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.10.31 11:33:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.31 11:33:54 INFO  BSP server: Starting compilation server[0m
+2023.10.31 11:33:57 INFO  time: Connected to build server in 3.26s[0m
+2023.10.31 11:33:57 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.31 11:33:58 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.31 11:34:00 INFO  time: indexed workspace in 2.12s[0m
+Oct 31, 2023 7:02:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 7:02:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 7:02:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 7:02:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 7:30:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 31, 2023 7:30:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.01 01:22:06 INFO  Shutting down server[0m
+2023.11.01 01:22:06 INFO  shutting down Metals[0m
+2023.11.01 01:22:06 INFO  Shut down connection with build server.[0m
+2023.11.01 01:22:06 INFO  Exiting server[0m
+2023.11.01 01:22:27 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.83.1.[0m
+2023.11.01 01:22:28 WARN  No build session currently active to reload.[0m
+2023.11.01 01:22:28 INFO  Attempting to connect to the build server...[0m
+2023.11.01 01:22:28 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.01 01:22:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.01 01:22:29 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.01 01:22:29 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.01 01:22:29 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.01 01:22:29 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.01 01:22:29 INFO  BSP server: Starting compilation server[0m
+2023.11.01 01:22:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.01 01:22:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.01 01:22:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.01 01:22:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.01 01:22:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.01 01:22:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.01 01:22:32 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.01 01:22:32 INFO  time: Connected to build server in 4.44s[0m
+2023.11.01 01:22:32 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.01 01:22:32 INFO  time: Imported build in 0.13s[0m
+2023.11.01 01:22:36 INFO  time: indexed workspace in 3.52s[0m
+2023.11.01 01:39:59 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.83.1.[0m
+2023.11.01 01:40:00 WARN  No build session currently active to reload.[0m
+2023.11.01 01:40:00 INFO  Attempting to connect to the build server...[0m
+2023.11.01 01:40:00 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.01 01:40:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.01 01:40:00 INFO  time: Connected to build server in 0.82s[0m
+2023.11.01 01:40:00 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.01 01:40:04 INFO  time: indexed workspace in 3.52s[0m
+2023.11.01 01:40:21 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.83.1.[0m
+2023.11.01 01:40:22 WARN  No build session currently active to reload.[0m
+2023.11.01 01:40:22 INFO  Attempting to connect to the build server...[0m
+2023.11.01 01:40:22 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.01 01:40:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.01 01:40:22 INFO  time: Connected to build server in 0.86s[0m
+2023.11.01 01:40:22 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.01 01:40:26 INFO  time: indexed workspace in 3.65s[0m
+2023.11.01 01:42:15 INFO  Shut down connection with build server.[0m
+2023.11.01 01:42:32 INFO  Shutting down server[0m
+2023.11.01 01:42:32 INFO  shutting down Metals[0m
+2023.11.01 01:42:32 INFO  Shut down connection with build server.[0m
+2023.11.01 01:42:32 INFO  BSP server: Nov 01, 2023 1:42:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.11.01 01:42:32 INFO  Exiting server[0m
+2023.11.01 01:43:19 INFO  Shut down connection with build server.[0m
+2023.11.01 01:43:19 INFO  BSP server: Nov 01, 2023 1:43:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.11.03 18:33:38 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.84.0.[0m
+2023.11.03 18:33:39 WARN  No build session currently active to reload.[0m
+2023.11.03 18:33:39 INFO  Attempting to connect to the build server...[0m
+2023.11.03 18:33:39 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.03 18:33:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.03 18:33:39 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.03 18:33:39 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.03 18:33:39 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.03 18:33:42 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.03 18:33:42 INFO  BSP server: Starting compilation server[0m
+Nov 03, 2023 6:33:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.03 18:33:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.03 18:33:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.03 18:33:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.03 18:33:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.03 18:33:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.03 18:33:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.03 18:33:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.03 18:33:44 INFO  time: Connected to build server in 5.12s[0m
+2023.11.03 18:33:44 INFO  Connected to Build server: scala-cli v1.0.4[0m
+Nov 03, 2023 6:33:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.03 18:33:47 INFO  time: indexed workspace in 3.29s[0m
+2023.11.03 18:34:35 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:34:35 WARN  Could not load snapshot text for /home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.11.03 18:34:35 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.11.03 18:34:36 INFO  time: compiled l02_bd2c96d2de in 1.15s[0m
+2023.11.03 18:34:36 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.11.03 18:34:36 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.11.03 18:34:41 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+2023.11.03 18:34:44 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/lista2.scala[0m
+Nov 03, 2023 6:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+Nov 03, 2023 6:37:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 258
+2023.11.03 18:37:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:37:50 INFO  time: compiled l02_bd2c96d2de in 0.33s[0m
+2023.11.03 18:38:00 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:38:00 INFO  time: compiled l02_bd2c96d2de in 86ms[0m
+2023.11.03 18:38:16 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:38:16 INFO  time: compiled l02_bd2c96d2de in 90ms[0m
+Nov 03, 2023 6:38:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 490
+Nov 03, 2023 6:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 540
+Nov 03, 2023 6:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+Nov 03, 2023 6:38:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+Nov 03, 2023 6:38:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+2023.11.03 18:39:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:39:50 INFO  time: compiled l02_bd2c96d2de in 0.82s[0m
+2023.11.03 18:39:56 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:39:56 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.03 18:40:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 18:40:55 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+Nov 03, 2023 6:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 03, 2023 7:18:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 03, 2023 7:18:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.03 19:21:39 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:21:39 INFO  time: compiled l02_bd2c96d2de in 0.79s[0m
+2023.11.03 19:21:49 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:21:49 INFO  time: compiled l02_bd2c96d2de in 89ms[0m
+2023.11.03 19:22:00 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:22:00 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+2023.11.03 19:22:13 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:22:13 INFO  time: compiled l02_bd2c96d2de in 0.22s[0m
+2023.11.03 19:22:31 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:22:31 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.03 19:22:58 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:22:58 INFO  time: compiled l02_bd2c96d2de in 0.24s[0m
+2023.11.03 19:23:59 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:23:59 INFO  time: compiled l02_bd2c96d2de in 0.22s[0m
+2023.11.03 19:24:20 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:24:20 INFO  time: compiled l02_bd2c96d2de in 79ms[0m
+2023.11.03 19:24:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:24:52 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.03 19:25:01 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:25:01 INFO  time: compiled l02_bd2c96d2de in 0.36s[0m
+2023.11.03 19:25:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:25:08 INFO  time: compiled l02_bd2c96d2de in 0.34s[0m
+2023.11.03 19:25:14 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:25:14 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.03 19:25:34 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:25:34 INFO  time: compiled l02_bd2c96d2de in 72ms[0m
+2023.11.03 19:26:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:24 INFO  time: compiled l02_bd2c96d2de in 0.32s[0m
+2023.11.03 19:26:26 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:26 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.03 19:26:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:28 INFO  time: compiled l02_bd2c96d2de in 0.26s[0m
+2023.11.03 19:26:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:38 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+2023.11.03 19:26:48 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:48 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:26:51 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:51 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:26:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:55 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:26:56 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:26:56 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:27:02 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:27:02 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:27:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:27:06 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:27:45 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:27:45 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:27:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:27:53 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:29:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:29:04 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:29:07 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:29:07 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:29:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:29:52 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:30:00 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:30:00 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+Nov 03, 2023 7:30:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2237
+2023.11.03 19:30:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:30:04 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:30:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:30:06 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:30:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:30:08 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+Nov 03, 2023 7:32:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2356
+Nov 03, 2023 7:32:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2357
+2023.11.03 19:32:29 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:32:29 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:32:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:32:38 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:32:48 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:32:48 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:32:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:32:50 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+Nov 03, 2023 7:33:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2467
+2023.11.03 19:33:15 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:33:15 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:33:21 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:33:21 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:33:25 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:33:25 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+Nov 03, 2023 7:35:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2663
+2023.11.03 19:36:20 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:36:20 INFO  time: compiled l02_bd2c96d2de in 53ms[0m
+2023.11.03 19:36:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:36:38 INFO  time: compiled l02_bd2c96d2de in 47ms[0m
+2023.11.03 19:36:43 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:36:43 INFO  time: compiled l02_bd2c96d2de in 40ms[0m
+2023.11.03 19:36:51 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:36:51 INFO  time: compiled l02_bd2c96d2de in 43ms[0m
+2023.11.03 19:37:12 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:37:12 INFO  time: compiled l02_bd2c96d2de in 42ms[0m
+2023.11.03 19:37:21 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:37:21 INFO  time: compiled l02_bd2c96d2de in 56ms[0m
+2023.11.03 19:37:37 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:37:37 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:37:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:37:52 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+Nov 03, 2023 7:44:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3623
+2023.11.03 19:44:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:44:38 INFO  time: compiled l02_bd2c96d2de in 89ms[0m
+Nov 03, 2023 7:45:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3820
+2023.11.03 19:45:01 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:01 INFO  time: compiled l02_bd2c96d2de in 75ms[0m
+2023.11.03 19:45:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:08 INFO  time: compiled l02_bd2c96d2de in 74ms[0m
+2023.11.03 19:45:11 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:11 INFO  time: compiled l02_bd2c96d2de in 74ms[0m
+Nov 03, 2023 7:45:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3947
+2023.11.03 19:45:25 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:25 INFO  time: compiled l02_bd2c96d2de in 71ms[0m
+2023.11.03 19:45:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:38 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:45:43 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:43 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:45:49 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:49 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:45:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:45:55 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:46:00 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:46:00 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:46:05 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:46:05 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:46:26 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:46:26 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:46:44 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:46:44 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+Nov 03, 2023 7:47:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4424
+2023.11.03 19:47:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:47:04 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+Nov 03, 2023 7:47:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4506
+2023.11.03 19:47:37 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:47:37 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:48:44 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:48:44 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.03 19:49:02 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:02 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:49:12 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:12 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+2023.11.03 19:49:20 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:20 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:49:26 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:26 INFO  time: compiled l02_bd2c96d2de in 0.22s[0m
+2023.11.03 19:49:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:28 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.03 19:49:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:40 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:49:41 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:41 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:49:44 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:44 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:49:49 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:49 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:49:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:49:50 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:50:10 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:50:10 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.03 19:50:34 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:50:34 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:50:54 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:50:54 INFO  time: compiled l02_bd2c96d2de in 65ms[0m
+2023.11.03 19:51:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:51:08 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:51:15 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:51:15 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:51:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:51:55 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.03 19:52:17 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:52:17 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:54:30 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:54:30 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.03 19:54:45 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:54:45 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.03 19:54:46 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:54:46 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.03 19:54:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:54:52 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.03 19:54:54 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.03 19:54:54 INFO  time: compiled l02_bd2c96d2de in 0.12s[0m
+Nov 03, 2023 8:16:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 03, 2023 8:18:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.03 20:20:36 INFO  Shutting down server[0m
+2023.11.03 20:20:36 INFO  shutting down Metals[0m
+2023.11.03 20:20:36 INFO  Shut down connection with build server.[0m
+2023.11.03 20:20:36 INFO  Exiting server[0m
+2023.11.03 20:20:47 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.84.0.[0m
+2023.11.03 20:20:48 INFO  Attempting to connect to the build server...[0m
+2023.11.03 20:20:48 WARN  No build session currently active to reload.[0m
+2023.11.03 20:20:48 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.03 20:20:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.03 20:20:49 INFO  BSP server: Starting compilation server[0m
+2023.11.03 20:20:51 INFO  time: Connected to build server in 2.19s[0m
+2023.11.03 20:20:51 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.03 20:20:53 INFO  time: indexed workspace in 2.06s[0m
+2023.11.03 20:21:05 INFO  Shutting down server[0m
+2023.11.03 20:21:05 INFO  shutting down Metals[0m
+2023.11.03 20:21:05 INFO  Shut down connection with build server.[0m
+2023.11.03 20:21:05 INFO  BSP server: Nov 03, 2023 8:21:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.11.03 20:21:05 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.11.03 20:21:05 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.11.03 20:21:05 INFO  BSP server:   "method": "build/exit",[0m
+2023.11.03 20:21:05 INFO  BSP server:   "params": null[0m
+2023.11.03 20:21:05 INFO  BSP server: }[0m
+2023.11.03 20:21:05 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.11.03 20:21:05 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	... 13 more[0m
+2023.11.03 20:21:05 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2023.11.03 20:21:05 INFO  BSP server: 	... 15 more[0m
+2023.11.03 20:21:05 INFO  BSP server: [0m
+2023.11.03 20:21:05 INFO  Exiting server[0m
+2023.11.06 09:18:37 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.84.0.[0m
+2023.11.06 09:18:38 INFO  Attempting to connect to the build server...[0m
+2023.11.06 09:18:38 WARN  No build session currently active to reload.[0m
+2023.11.06 09:18:38 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.06 09:18:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: (watching) Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Starting compilation server[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:43 INFO  time: Connected to build server in 4.84s[0m
+2023.11.06 09:18:43 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.06 09:18:43 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.06 09:18:45 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.06 09:18:46 INFO  time: indexed workspace in 1.89s[0m
+Nov 06, 2023 9:18:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Nov 06, 2023 9:18:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Nov 06, 2023 9:19:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Nov 06, 2023 9:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+Nov 06, 2023 9:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 257
+Nov 06, 2023 9:19:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 268
+Nov 06, 2023 9:19:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+Nov 06, 2023 9:20:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+Nov 06, 2023 9:20:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 378
+Nov 06, 2023 9:20:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+Nov 06, 2023 9:20:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 478
+2023.11.06 09:22:09 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:22:09 INFO  time: compiled l02_bd2c96d2de in 0.62s[0m
+2023.11.06 09:22:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:22:24 INFO  time: compiled l02_bd2c96d2de in 0.35s[0m
+2023.11.06 09:22:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:22:28 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.06 09:22:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:22:29 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.06 09:23:14 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:23:14 INFO  time: compiled l02_bd2c96d2de in 0.11s[0m
+Nov 06, 2023 9:23:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1209
+Nov 06, 2023 9:23:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1210
+Nov 06, 2023 9:23:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1213
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.06 09:23:31 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:23:31 INFO  time: compiled l02_bd2c96d2de in 0.28s[0m
+2023.11.06 09:23:35 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:23:35 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+2023.11.06 09:23:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:23:50 INFO  time: compiled l02_bd2c96d2de in 0.22s[0m
+2023.11.06 09:23:59 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:23:59 INFO  time: compiled l02_bd2c96d2de in 0.93s[0m
+2023.11.06 09:24:10 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:24:10 INFO  time: compiled l02_bd2c96d2de in 0.33s[0m
+2023.11.06 09:24:12 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:24:12 INFO  time: compiled l02_bd2c96d2de in 0.32s[0m
+2023.11.06 09:24:25 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l02' for client Visual Studio Code 1.84.0.[0m
+2023.11.06 09:24:29 INFO  Attempting to connect to the build server...[0m
+2023.11.06 09:24:29 WARN  No build session currently active to reload.[0m
+2023.11.06 09:24:29 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.06 09:24:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.06 09:24:29 INFO  time: Connected to build server in 0.53s[0m
+2023.11.06 09:24:29 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.06 09:24:31 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.06 09:24:33 INFO  no build target found for /home/mak/programming_paradigms/l02/lista2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+Nov 06, 2023 9:24:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2023.11.06 09:24:33 INFO  time: indexed workspace in 1.45s[0m
+2023.11.06 09:24:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:24:40 INFO  time: compiled l02_bd2c96d2de in 0.12s[0m
+2023.11.06 09:24:43 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:24:43 INFO  time: compiled l02_bd2c96d2de in 75ms[0m
+Nov 06, 2023 9:24:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+2023.11.06 09:25:17 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:25:17 INFO  time: compiled l02_bd2c96d2de in 0.27s[0m
+Nov 06, 2023 9:25:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+2023.11.06 09:26:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:26:55 INFO  time: compiled l02_bd2c96d2de in 0.36s[0m
+Nov 06, 2023 9:26:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 707
+2023.11.06 09:27:23 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:27:23 INFO  time: compiled l02_bd2c96d2de in 0.11s[0m
+Nov 06, 2023 9:28:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 978
+Nov 06, 2023 9:28:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 979
+Nov 06, 2023 9:28:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 980
+Nov 06, 2023 9:29:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1052
+Nov 06, 2023 9:29:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1077
+2023.11.06 09:29:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:29:53 INFO  time: compiled l02_bd2c96d2de in 0.37s[0m
+2023.11.06 09:30:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:30:06 INFO  time: compiled l02_bd2c96d2de in 0.26s[0m
+Nov 06, 2023 9:30:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1341
+2023.11.06 09:30:48 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:30:48 INFO  time: compiled l02_bd2c96d2de in 0.37s[0m
+Nov 06, 2023 9:30:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1387
+2023.11.06 09:30:58 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:30:58 INFO  time: compiled l02_bd2c96d2de in 0.24s[0m
+Nov 06, 2023 9:31:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1433
+2023.11.06 09:31:14 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:31:14 INFO  time: compiled l02_bd2c96d2de in 0.12s[0m
+2023.11.06 09:31:20 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:31:20 INFO  time: compiled l02_bd2c96d2de in 0.27s[0m
+2023.11.06 09:32:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:32:24 INFO  time: compiled l02_bd2c96d2de in 0.4s[0m
+2023.11.06 09:32:25 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:32:25 INFO  time: compiled l02_bd2c96d2de in 0.11s[0m
+2023.11.06 09:32:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:32:53 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+Nov 06, 2023 9:34:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2490
+Nov 06, 2023 9:35:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2696
+2023.11.06 09:35:41 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:35:41 INFO  time: compiled l02_bd2c96d2de in 99ms[0m
+2023.11.06 09:37:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:37:04 INFO  time: compiled l02_bd2c96d2de in 0.13s[0m
+2023.11.06 09:37:10 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:37:10 INFO  time: compiled l02_bd2c96d2de in 85ms[0m
+2023.11.06 09:37:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:37:24 INFO  time: compiled l02_bd2c96d2de in 0.27s[0m
+2023.11.06 09:37:59 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:37:59 INFO  time: compiled l02_bd2c96d2de in 0.27s[0m
+2023.11.06 09:38:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:38:24 INFO  time: compiled l02_bd2c96d2de in 0.23s[0m
+2023.11.06 09:38:41 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:38:41 INFO  time: compiled l02_bd2c96d2de in 0.22s[0m
+2023.11.06 09:38:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:38:55 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.06 09:39:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:39:28 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+Nov 06, 2023 9:40:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3388
+Nov 06, 2023 9:41:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5964
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5964
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5964
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Nov 06, 2023 9:41:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5965
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5965
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 5928, end 5983, length 5965
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.11.06 09:42:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:42:06 INFO  time: compiled l02_bd2c96d2de in 0.23s[0m
+2023.11.06 09:42:16 ERROR Failed to tokenize input for semantic tokens for /home/mak/programming_paradigms/l02/lista2.scala
+scala.meta.tokenizers.TokenizeException: <input>:165: error: unclosed string literal
+    println("TESTS FOR 
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.11.06 09:42:17 ERROR Failed to tokenize input for semantic tokens for /home/mak/programming_paradigms/l02/lista2.scala
+scala.meta.tokenizers.TokenizeException: <input>:165: error: unclosed string literal
+    println("TESTS FOR spli
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.11.06 09:42:17 ERROR Failed to tokenize input for semantic tokens for /home/mak/programming_paradigms/l02/lista2.scala
+scala.meta.tokenizers.TokenizeException: <input>:165: error: unclosed string literal
+    println("TESTS FOR split
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.11.06 09:42:19 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:42:19 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+Nov 06, 2023 9:42:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3680
+2023.11.06 09:42:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:42:40 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+2023.11.06 09:42:51 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:42:51 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.06 09:43:23 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:43:23 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.06 09:43:32 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:43:32 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+2023.11.06 09:43:42 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 09:43:42 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+Nov 06, 2023 11:16:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 06, 2023 11:19:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3780
+2023.11.06 11:20:03 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/mod.scala[0m
+2023.11.06 11:20:03 INFO  Disconnecting from scala-cli session...[0m
+2023.11.06 11:20:03 INFO  Cancelling compilation on scala-cli server[0m
+2023.11.06 11:20:03 INFO  Shut down connection with build server.[0m
+2023.11.06 11:20:03 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/mod.scala[0m
+2023.11.06 11:20:03 INFO  Attempting to connect to the build server...[0m
+2023.11.06 11:20:03 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l02/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l02)[0m
+2023.11.06 11:20:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l02/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.06 11:20:03 INFO  time: Connected to build server in 0.62s[0m
+2023.11.06 11:20:03 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.06 11:20:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:20:04 INFO  time: compiled l02_bd2c96d2de in 96ms[0m
+2023.11.06 11:20:05 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/mod.scala[0m
+2023.11.06 11:20:05 INFO  time: indexed workspace in 1.54s[0m
+2023.11.06 11:20:07 INFO  Refreshed build after change[0m
+2023.11.06 11:20:07 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/mod.scala[0m
+2023.11.06 11:20:09 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l02/mod.scala[0m
+Nov 06, 2023 11:20:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4010
+Nov 06, 2023 11:20:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4012
+Nov 06, 2023 11:20:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l02/.metals/.reports/metals-full/2023-11-06/r_compiler-error_(l02_bd2c96d2de)_11-20-39-632.md
+2023.11.06 11:20:45 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:20:45 INFO  time: compiled l02_bd2c96d2de in 93ms[0m
+2023.11.06 11:20:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:20:52 INFO  time: compiled l02_bd2c96d2de in 47ms[0m
+2023.11.06 11:21:03 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:03 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+Nov 06, 2023 11:21:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4222
+2023.11.06 11:21:26 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:26 INFO  time: compiled l02_bd2c96d2de in 63ms[0m
+2023.11.06 11:21:31 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:31 INFO  time: compiled l02_bd2c96d2de in 61ms[0m
+2023.11.06 11:21:39 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:39 INFO  time: compiled l02_bd2c96d2de in 61ms[0m
+Nov 06, 2023 11:21:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4365
+2023.11.06 11:21:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:52 INFO  time: compiled l02_bd2c96d2de in 54ms[0m
+2023.11.06 11:21:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:21:53 INFO  time: compiled l02_bd2c96d2de in 54ms[0m
+2023.11.06 11:22:03 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:22:03 INFO  time: compiled l02_bd2c96d2de in 56ms[0m
+2023.11.06 11:22:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:22:08 INFO  time: compiled l02_bd2c96d2de in 55ms[0m
+2023.11.06 11:22:11 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:22:11 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.06 11:22:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:22:28 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.06 11:23:00 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:23:00 INFO  time: compiled l02_bd2c96d2de in 65ms[0m
+2023.11.06 11:23:04 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:23:04 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+Nov 06, 2023 11:23:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4862
+2023.11.06 11:23:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:23:38 INFO  time: compiled l02_bd2c96d2de in 57ms[0m
+2023.11.06 11:23:48 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:23:48 INFO  time: compiled l02_bd2c96d2de in 72ms[0m
+2023.11.06 11:24:02 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:24:02 INFO  time: compiled l02_bd2c96d2de in 57ms[0m
+2023.11.06 11:24:09 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:24:09 INFO  time: compiled l02_bd2c96d2de in 0.24s[0m
+Nov 06, 2023 11:24:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5318
+2023.11.06 11:25:21 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:21 INFO  time: compiled l02_bd2c96d2de in 0.14s[0m
+2023.11.06 11:25:29 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:29 INFO  time: compiled l02_bd2c96d2de in 0.1s[0m
+2023.11.06 11:25:30 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:30 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.06 11:25:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:40 INFO  time: compiled l02_bd2c96d2de in 0.12s[0m
+2023.11.06 11:25:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:40 INFO  time: compiled l02_bd2c96d2de in 0.11s[0m
+2023.11.06 11:25:42 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:42 INFO  time: compiled l02_bd2c96d2de in 0.12s[0m
+2023.11.06 11:25:59 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:25:59 INFO  time: compiled l02_bd2c96d2de in 92ms[0m
+2023.11.06 11:26:12 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:26:12 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+Nov 06, 2023 11:26:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5771
+2023.11.06 11:26:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:26:24 INFO  time: compiled l02_bd2c96d2de in 72ms[0m
+2023.11.06 11:26:42 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:26:42 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.06 11:26:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:26:53 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+Nov 06, 2023 11:27:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6027
+2023.11.06 11:27:22 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:27:22 INFO  time: compiled l02_bd2c96d2de in 0.18s[0m
+2023.11.06 11:27:28 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:27:28 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.06 11:28:10 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:28:10 INFO  time: compiled l02_bd2c96d2de in 0.23s[0m
+2023.11.06 11:28:12 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:28:12 INFO  time: compiled l02_bd2c96d2de in 0.19s[0m
+Nov 06, 2023 11:28:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6496
+2023.11.06 11:28:55 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:28:55 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+2023.11.06 11:29:01 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:01 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+2023.11.06 11:29:05 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:05 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+Nov 06, 2023 11:29:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6613
+2023.11.06 11:29:11 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:11 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+Nov 06, 2023 11:29:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Nov 06, 2023 11:29:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 649, end 661, length 646
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.11.06 11:29:40 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:40 INFO  time: compiled l02_bd2c96d2de in 95ms[0m
+2023.11.06 11:29:48 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:48 INFO  time: compiled l02_bd2c96d2de in 66ms[0m
+2023.11.06 11:29:50 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:50 INFO  time: compiled l02_bd2c96d2de in 58ms[0m
+2023.11.06 11:29:52 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:29:52 INFO  time: compiled l02_bd2c96d2de in 65ms[0m
+2023.11.06 11:30:15 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:30:15 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Nov 06, 2023 11:30:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7086
+2023.11.06 11:30:30 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:30:30 INFO  time: compiled l02_bd2c96d2de in 75ms[0m
+2023.11.06 11:30:37 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:30:37 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.06 11:30:38 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:30:38 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+Nov 06, 2023 11:30:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7171
+Nov 06, 2023 11:30:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7192
+2023.11.06 11:30:59 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:30:59 INFO  time: compiled l02_bd2c96d2de in 0.54s[0m
+2023.11.06 11:31:17 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:31:17 INFO  time: compiled l02_bd2c96d2de in 0.52s[0m
+2023.11.06 11:31:43 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:31:43 INFO  time: compiled l02_bd2c96d2de in 0.43s[0m
+2023.11.06 11:31:49 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:31:49 INFO  time: compiled l02_bd2c96d2de in 0.4s[0m
+2023.11.06 11:32:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:06 INFO  time: compiled l02_bd2c96d2de in 0.31s[0m
+2023.11.06 11:32:11 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:11 INFO  time: compiled l02_bd2c96d2de in 0.29s[0m
+2023.11.06 11:32:19 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:19 INFO  time: compiled l02_bd2c96d2de in 0.25s[0m
+Nov 06, 2023 11:32:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7489
+2023.11.06 11:32:33 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:33 INFO  time: compiled l02_bd2c96d2de in 0.16s[0m
+2023.11.06 11:32:43 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:43 INFO  time: compiled l02_bd2c96d2de in 60ms[0m
+2023.11.06 11:32:53 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:32:53 INFO  time: compiled l02_bd2c96d2de in 0.17s[0m
+2023.11.06 11:33:08 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:33:08 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+Nov 06, 2023 11:34:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7629
+2023.11.06 11:37:35 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:37:35 INFO  time: compiled l02_bd2c96d2de in 0.41s[0m
+Nov 06, 2023 11:38:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7675
+2023.11.06 11:39:16 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:39:16 INFO  time: compiled l02_bd2c96d2de in 0.24s[0m
+2023.11.06 11:39:24 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:39:24 INFO  time: compiled l02_bd2c96d2de in 0.15s[0m
+2023.11.06 11:41:06 INFO  compiling l02_bd2c96d2de (1 scala source)[0m
+2023.11.06 11:41:06 INFO  time: compiled l02_bd2c96d2de in 0.2s[0m
+Nov 06, 2023 11:41:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7766
+2023.11.06 13:22:16 INFO  BSP server: Fatal error has occured within bloop bsp server, method: buildTargetCompile, with params: CompileParams [[0m
+2023.11.06 13:22:16 INFO  BSP server:   targets = ArrayList ([0m
+2023.11.06 13:22:16 INFO  BSP server:     BuildTargetIdentifier [[0m
+2023.11.06 13:22:16 INFO  BSP server:       uri = "file:/home/mak/programming_paradigms/l02/.scala-build/?id=l02_bd2c96d2de"[0m
+2023.11.06 13:22:16 INFO  BSP server:     ][0m
+2023.11.06 13:22:16 INFO  BSP server:   )[0m
+2023.11.06 13:22:16 INFO  BSP server:   originId = null[0m
+2023.11.06 13:22:16 INFO  BSP server:   arguments = null[0m
+2023.11.06 13:22:16 INFO  BSP server: ]. Shutting down the server:[0m
+2023.11.06 13:22:16 INFO  BSP server:  org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)[0m
+2023.11.06 13:22:16 ERROR Build server error: Fatal error has occured within bloop bsp server, method: buildTargetCompile, with params: CompileParams [
+  targets = ArrayList (
+    BuildTargetIdentifier [
+      uri = "file:/home/mak/programming_paradigms/l02/.scala-build/?id=l02_bd2c96d2de"
+    ]
+  )
+  originId = null
+  arguments = null
+]. Shutting down the server:
+ org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy4/jdk.proxy4.$Proxy47.buildTargetCompile(Unknown Source)
+	at scala.build.bsp.BuildServerForwardStubs.buildTargetCompile(BuildServerForwardStubs.scala:40)
+	at scala.build.bsp.BuildServerForwardStubs.buildTargetCompile$(BuildServerForwardStubs.scala:9)
+	at scala.build.bsp.BspServer.buildTargetCompile$$anonfun$1(BspServer.scala:205)
+	at scala.build.bsp.BspImpl.compile$$anonfun$1(BspImpl.scala:352)
+	at java.base@17.0.6/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base@17.0.6/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base@17.0.6/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+Caused by: java.io.IOException: Broken pipe
+	at java.base@17.0.6/sun.nio.ch.FileDispatcherImpl.write0(FileDispatcherImpl.java)
+	at java.base@17.0.6/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)
+	at java.base@17.0.6/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at java.base@17.0.6/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base@17.0.6/sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at java.base@17.0.6/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at java.base@17.0.6/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base@17.0.6/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base@17.0.6/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base@17.0.6/java.io.OutputStream.write(OutputStream.java:127)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 15 more
+[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at jdk.proxy4/jdk.proxy4.$Proxy47.buildTargetCompile(Unknown Source)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at scala.build.bsp.BuildServerForwardStubs.buildTargetCompile(BuildServerForwardStubs.scala:40)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at scala.build.bsp.BuildServerForwardStubs.buildTargetCompile$(BuildServerForwardStubs.scala:9)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at scala.build.bsp.BspServer.buildTargetCompile$$anonfun$1(BspServer.scala:205)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at scala.build.bsp.BspImpl.compile$$anonfun$1(BspImpl.scala:352)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.11.06 13:22:16 INFO  BSP server: Caused by: java.io.IOException: Broken pipe[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.FileDispatcherImpl.write0(FileDispatcherImpl.java)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.IOUtil.write(IOUtil.java:97)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.IOUtil.write(IOUtil.java:53)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.nio.channels.Channels.writeFully(Channels.java:93)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.nio.channels.Channels$1.write(Channels.java:171)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at java.base@17.0.6/java.io.OutputStream.write(OutputStream.java:127)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)[0m
+2023.11.06 13:22:16 INFO  BSP server: 	... 15 more[0m
+2023.11.06 13:22:16 INFO  BSP server: [0m
+2023.11.06 13:22:16 INFO  Shutting down server[0m
+2023.11.06 13:22:16 INFO  shutting down Metals[0m
+2023.11.06 13:22:16 INFO  Shut down connection with build server.[0m
+2023.11.06 13:22:16 INFO  Cancelling compilation on scala-cli server[0m
+2023.11.06 13:22:16 INFO  Exiting server[0m

@@ -4142,3 +4142,384 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 2023.10.23 11:23:13 INFO  shutting down Metals[0m
 2023.10.23 11:23:13 INFO  Shut down connection with build server.[0m
 2023.10.23 11:23:13 INFO  Exiting server[0m
+2023.10.28 18:49:59 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.28 18:50:00 INFO  Attempting to connect to the build server...[0m
+2023.10.28 18:50:00 WARN  No build session currently active to reload.[0m
+2023.10.28 18:50:00 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.28 18:50:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.28 18:50:00 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.28 18:50:00 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.28 18:50:00 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.28 18:50:00 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.28 18:50:00 INFO  BSP server: Starting compilation server[0m
+2023.10.28 18:50:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.28 18:50:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.28 18:50:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.28 18:50:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.28 18:50:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.28 18:50:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.28 18:50:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.28 18:50:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.28 18:50:03 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.28 18:50:03 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.28 18:50:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.28 18:50:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.28 18:50:04 INFO  time: Connected to build server in 4.05s[0m
+2023.10.28 18:50:04 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.28 18:50:04 INFO  no build target found for /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.28 18:50:04 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 18:50:05 INFO  no build target found for /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+Oct 28, 2023 6:50:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.10.28 18:50:07 INFO  time: Imported build in 3.27s[0m
+2023.10.28 18:50:09 INFO  time: indexed workspace in 1.18s[0m
+2023.10.28 18:54:56 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 18:54:56 INFO  time: compiled l01_bd2c96d2de in 0.56s[0m
+Oct 28, 2023 7:00:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+2023.10.28 19:00:19 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:19 INFO  time: compiled l01_bd2c96d2de in 0.25s[0m
+2023.10.28 19:00:29 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:29 INFO  time: compiled l01_bd2c96d2de in 0.74s[0m
+2023.10.28 19:00:38 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:38 INFO  time: compiled l01_bd2c96d2de in 0.45s[0m
+2023.10.28 19:00:41 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:41 INFO  time: compiled l01_bd2c96d2de in 0.45s[0m
+2023.10.28 19:00:43 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:43 INFO  time: compiled l01_bd2c96d2de in 0.34s[0m
+2023.10.28 19:00:47 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:47 INFO  time: compiled l01_bd2c96d2de in 0.25s[0m
+2023.10.28 19:00:50 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:50 INFO  time: compiled l01_bd2c96d2de in 96ms[0m
+2023.10.28 19:00:58 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:00:58 INFO  time: compiled l01_bd2c96d2de in 92ms[0m
+2023.10.28 19:01:02 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:01:02 INFO  time: compiled l01_bd2c96d2de in 0.24s[0m
+2023.10.28 19:03:31 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:03:31 INFO  time: compiled l01_bd2c96d2de in 0.13s[0m
+2023.10.28 19:03:33 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.28 19:03:33 INFO  time: compiled l01_bd2c96d2de in 0.25s[0m
+Oct 28, 2023 7:04:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 638
+Oct 28, 2023 7:04:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 640
+2023.10.28 19:10:23 INFO  Shutting down server[0m
+2023.10.28 19:10:23 INFO  shutting down Metals[0m
+2023.10.28 19:10:23 INFO  Shut down connection with build server.[0m
+2023.10.28 19:10:23 INFO  Exiting server[0m
+2023.10.29 22:33:09 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.29 22:33:10 WARN  No build session currently active to reload.[0m
+2023.10.29 22:33:10 INFO  Attempting to connect to the build server...[0m
+2023.10.29 22:33:10 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.29 22:33:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+Oct 29, 2023 10:33:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.10.29 22:33:11 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.29 22:33:11 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.29 22:33:11 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.29 22:33:11 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.10.29 22:33:11 INFO  BSP server: Starting compilation server[0m
+2023.10.29 22:33:13 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.29 22:33:13 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.10.29 22:33:13 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.29 22:33:13 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.10.29 22:33:13 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.29 22:33:13 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.10.29 22:33:13 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.29 22:33:13 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.10.29 22:33:14 INFO  time: Connected to build server in 3.88s[0m
+2023.10.29 22:33:14 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.29 22:33:14 INFO  no build target found for /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.29 22:33:15 INFO  time: indexed workspace in 1.19s[0m
+2023.10.29 22:34:17 INFO  Shutting down server[0m
+2023.10.29 22:34:17 INFO  shutting down Metals[0m
+2023.10.29 22:34:18 INFO  Shut down connection with build server.[0m
+2023.10.29 22:34:17 INFO  Exiting server[0m
+2023.10.30 11:10:47 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.83.1.[0m
+2023.10.30 11:10:48 WARN  No build session currently active to reload.[0m
+2023.10.30 11:10:48 INFO  Attempting to connect to the build server...[0m
+2023.10.30 11:10:48 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.30 11:10:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.30 11:10:49 INFO  BSP server: Starting compilation server[0m
+Oct 30, 2023 11:10:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 30, 2023 11:10:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.10.30 11:10:51 INFO  time: Connected to build server in 3.48s[0m
+2023.10.30 11:10:51 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.30 11:10:52 INFO  no build target found for /home/mak/programming_paradigms/l01/[PP][PON1115][Mikolaj-Kapica]_L01.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.10.30 11:10:54 INFO  time: indexed workspace in 1.14s[0m
+2023.10.30 11:14:41 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 11:14:41 INFO  Disconnecting from scala-cli session...[0m
+2023.10.30 11:14:41 INFO  Cancelling compilation on scala-cli server[0m
+2023.10.30 11:14:41 INFO  Shut down connection with build server.[0m
+2023.10.30 11:14:41 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 11:14:41 INFO  Attempting to connect to the build server...[0m
+2023.10.30 11:14:41 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.10.30 11:14:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.10.30 11:14:41 INFO  time: Connected to build server in 0.32s[0m
+2023.10.30 11:14:41 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.10.30 11:14:41 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:14:42 INFO  time: indexed workspace in 0.74s[0m
+2023.10.30 11:14:43 INFO  time: compiled l01_bd2c96d2de in 1.49s[0m
+2023.10.30 11:14:43 INFO  Refreshed build after change[0m
+2023.10.30 11:14:43 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 11:14:47 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+Oct 30, 2023 11:29:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.30 11:52:40 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 11:52:40 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 11:52:42 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+Oct 30, 2023 11:52:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+2023.10.30 11:52:47 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+Oct 30, 2023 11:53:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 485
+2023.10.30 11:54:15 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:54:16 INFO  time: compiled l01_bd2c96d2de in 1.16s[0m
+2023.10.30 11:54:28 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:54:28 INFO  time: compiled l01_bd2c96d2de in 0.41s[0m
+2023.10.30 11:55:13 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:55:13 INFO  time: compiled l01_bd2c96d2de in 0.58s[0m
+2023.10.30 11:55:34 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:55:34 INFO  time: compiled l01_bd2c96d2de in 0.46s[0m
+2023.10.30 11:55:39 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:55:39 INFO  time: compiled l01_bd2c96d2de in 0.37s[0m
+2023.10.30 11:56:10 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:56:10 INFO  time: compiled l01_bd2c96d2de in 0.21s[0m
+2023.10.30 11:56:13 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:56:13 INFO  time: compiled l01_bd2c96d2de in 0.18s[0m
+2023.10.30 11:56:22 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:56:22 INFO  time: compiled l01_bd2c96d2de in 0.18s[0m
+2023.10.30 11:56:31 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:56:31 INFO  time: compiled l01_bd2c96d2de in 0.51s[0m
+2023.10.30 11:57:01 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:57:01 INFO  time: compiled l01_bd2c96d2de in 0.21s[0m
+2023.10.30 11:57:07 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:57:07 INFO  time: compiled l01_bd2c96d2de in 0.22s[0m
+2023.10.30 11:57:55 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:57:55 INFO  time: compiled l01_bd2c96d2de in 0.26s[0m
+2023.10.30 11:58:54 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:58:54 INFO  time: compiled l01_bd2c96d2de in 0.24s[0m
+2023.10.30 11:58:57 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:58:57 INFO  time: compiled l01_bd2c96d2de in 0.18s[0m
+2023.10.30 11:59:11 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:59:11 INFO  time: compiled l01_bd2c96d2de in 0.19s[0m
+2023.10.30 11:59:28 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:59:28 INFO  time: compiled l01_bd2c96d2de in 0.18s[0m
+2023.10.30 11:59:32 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:59:32 INFO  time: compiled l01_bd2c96d2de in 0.15s[0m
+2023.10.30 11:59:45 INFO  compiling l01_bd2c96d2de (1 scala source)[0m
+2023.10.30 11:59:45 INFO  time: compiled l01_bd2c96d2de in 0.19s[0m
+2023.10.30 11:59:48 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 11:59:48 INFO  time: compiled l01_bd2c96d2de in 0.15s[0m
+Oct 30, 2023 12:00:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2589
+2023.10.30 12:01:02 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:01:02 INFO  time: compiled l01_bd2c96d2de in 0.14s[0m
+2023.10.30 12:01:06 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:01:06 INFO  time: compiled l01_bd2c96d2de in 0.11s[0m
+2023.10.30 12:01:47 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:01:47 INFO  time: compiled l01_bd2c96d2de in 0.12s[0m
+2023.10.30 12:03:21 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:03:21 INFO  time: compiled l01_bd2c96d2de in 0.14s[0m
+2023.10.30 12:03:25 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:03:25 INFO  time: compiled l01_bd2c96d2de in 89ms[0m
+2023.10.30 12:03:31 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:03:31 INFO  time: compiled l01_bd2c96d2de in 86ms[0m
+Oct 30, 2023 12:21:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:22:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:25:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:25:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:25:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:26:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:31:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:33:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:34:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:34:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:44:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:46:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:46:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:46:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:52:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 30, 2023 12:54:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3190
+2023.10.30 12:54:19 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:54:19 INFO  time: compiled l01_bd2c96d2de in 0.24s[0m
+Oct 30, 2023 12:54:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3264
+Oct 30, 2023 12:55:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3564
+Oct 30, 2023 12:55:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.30 12:56:11 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:56:11 INFO  time: compiled l01_bd2c96d2de in 0.23s[0m
+Oct 30, 2023 12:57:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4862
+Oct 30, 2023 12:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5146
+Oct 30, 2023 12:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5147
+2023.10.30 12:57:59 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:57:59 INFO  time: compiled l01_bd2c96d2de in 0.11s[0m
+2023.10.30 12:58:02 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:58:02 INFO  time: compiled l01_bd2c96d2de in 0.1s[0m
+2023.10.30 12:58:11 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:58:11 INFO  time: compiled l01_bd2c96d2de in 91ms[0m
+2023.10.30 12:58:16 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:58:16 INFO  time: compiled l01_bd2c96d2de in 64ms[0m
+2023.10.30 12:58:29 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 12:58:29 INFO  time: compiled l01_bd2c96d2de in 61ms[0m
+Oct 30, 2023 12:58:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.30 13:01:41 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 13:01:44 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 13:01:44 INFO  time: compiled l01_bd2c96d2de in 83ms[0m
+2023.10.30 13:01:47 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+2023.10.30 13:01:49 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l01/modyfikacja.scala[0m
+Oct 30, 2023 1:01:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5289
+2023.10.30 13:01:53 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 13:01:53 INFO  time: compiled l01_bd2c96d2de in 68ms[0m
+2023.10.30 13:02:53 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 13:02:53 INFO  time: compiled l01_bd2c96d2de in 87ms[0m
+2023.10.30 13:02:59 INFO  compiling l01_bd2c96d2de (2 scala sources)[0m
+2023.10.30 13:02:59 INFO  time: compiled l01_bd2c96d2de in 62ms[0m
+2023.10.30 13:56:27 INFO  Shutting down server[0m
+2023.10.30 13:56:27 INFO  shutting down Metals[0m
+2023.10.30 13:56:27 INFO  Shut down connection with build server.[0m
+2023.10.30 13:56:27 INFO  BSP server: Oct 30, 2023 1:56:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.10.30 13:56:27 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.10.30 13:56:27 INFO  Exiting server[0m
+2023.11.06 09:18:37 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.84.0.[0m
+2023.11.06 09:18:38 WARN  No build session currently active to reload.[0m
+2023.11.06 09:18:38 INFO  Attempting to connect to the build server...[0m
+2023.11.06 09:18:38 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.11.06 09:18:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.06 09:18:39 INFO  BSP server: Starting compilation server[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.06 09:18:42 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:42 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.06 09:18:43 INFO  time: Connected to build server in 4.78s[0m
+2023.11.06 09:18:43 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.06 09:18:43 INFO  no build target found for /home/mak/programming_paradigms/l01/modyfikacja.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.06 09:18:44 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.06 09:18:48 INFO  time: Imported build in 4.35s[0m
+2023.11.06 09:18:48 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.06 09:18:49 INFO  time: compiled l01_bd2c96d2de in 1.3s[0m
+2023.11.06 09:18:50 INFO  time: indexed workspace in 2.1s[0m
+2023.11.06 09:18:49 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.06 09:18:52 INFO  time: compiled l01_bd2c96d2de in 1.14s[0m
+2023.11.06 09:18:52 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.06 09:18:52 INFO  time: compiled l01_bd2c96d2de in 0.48s[0m
+Nov 06, 2023 11:16:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.06 13:22:18 INFO  Shutting down server[0m
+2023.11.06 13:22:18 INFO  shutting down Metals[0m
+2023.11.06 13:22:18 INFO  Shut down connection with build server.[0m
+2023.11.06 13:22:18 INFO  BSP server: Nov 06, 2023 1:22:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.11.06 13:22:18 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.11.06 13:22:18 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.11.06 13:22:18 INFO  BSP server:   "method": "build/exit",[0m
+2023.11.06 13:22:18 INFO  BSP server:   "params": null[0m
+2023.11.06 13:22:18 INFO  BSP server: }[0m
+2023.11.06 13:22:18 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.11.06 13:22:18 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	... 13 more[0m
+2023.11.06 13:22:18 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2023.11.06 13:22:18 INFO  BSP server: 	... 15 more[0m
+2023.11.06 13:22:18 INFO  BSP server: [0m
+2023.11.06 13:22:18 INFO  Exiting server[0m
+2023.11.08 15:10:23 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l01' for client Visual Studio Code 1.84.0.[0m
+2023.11.08 15:10:24 WARN  No build session currently active to reload.[0m
+2023.11.08 15:10:24 INFO  Attempting to connect to the build server...[0m
+2023.11.08 15:10:24 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.11.08 15:10:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+Nov 08, 2023 3:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.11.08 15:22:55 INFO  no build target found for /home/mak/programming_paradigms/l01/modyfikacja.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.11.08 15:23:21 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.11.08 15:23:21 WARN  Retrying connection to the build server scala-cli[0m
+2023.11.08 15:23:21 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l01/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l01)[0m
+2023.11.08 15:23:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l01/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.08 15:23:22 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.08 15:23:22 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.08 15:23:22 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.08 15:23:22 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.11.08 15:23:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.08 15:23:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.11.08 15:23:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.08 15:23:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.08 15:23:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.08 15:23:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.11.08 15:23:23 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.11.08 15:23:23 INFO  time: Connected to build server in 1m2s[0m
+2023.11.08 15:23:23 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.08 15:23:23 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.08 15:23:23 INFO  time: compiled l01_bd2c96d2de in 0.81s[0m
+2023.11.08 15:23:23 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.08 15:23:25 INFO  time: compiled l01_bd2c96d2de in 0.68s[0m
+2023.11.08 15:23:25 INFO  time: indexed workspace in 1.99s[0m
+2023.11.08 15:23:25 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.08 15:23:27 INFO  time: compiled l01_bd2c96d2de in 1.24s[0m
+2023.11.08 15:23:27 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.08 15:23:27 INFO  time: compiled l01_bd2c96d2de in 0.6s[0m
+2023.11.08 15:28:01 INFO  compiling l01_bd2c96d2de (7 scala sources)[0m
+2023.11.08 15:28:01 INFO  time: compiled l01_bd2c96d2de in 0.59s[0m
+2023.11.08 15:49:23 INFO  Shutting down server[0m
+2023.11.08 15:49:23 INFO  shutting down Metals[0m
+2023.11.08 15:49:23 INFO  Shut down connection with build server.[0m
+2023.11.08 15:49:23 INFO  Exiting server[0m

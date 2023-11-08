@@ -10,7 +10,7 @@ let reverse4_tests =
 let sumProd s e = 
   if (s >= e) then raise (Invalid_argument "s >= e") else
   let rec aux current (sum, prod) = 
-    if current >= e then (sum, prod)
+    if e <= current then (sum, prod)
     else aux (current + 1) (sum + current, prod * current)
   in aux s (0, 1)
 
@@ -24,14 +24,13 @@ let sumProd_tests =
 
 let isPerfect n = 
   if (n < 1) then raise (Invalid_argument "n must be natural (n > 0)") else
-  let divisors = 
-    let rec aux current divisors = 
-      if current = 0 then divisors
-      else if n mod current = 0 then aux (current - 1) (current :: divisors)
-      else aux (current - 1) divisors
-    in aux (n - 1) []
+  let divisors_sum = 
+    let rec aux current divisors_sum = 
+      if current = 0 then divisors_sum
+      else if n mod current = 0 then aux (current - 1) (current + divisors_sum)
+      else aux (current - 1) divisors_sum
+    in aux (n / 2) 0
   in
-  let divisors_sum = List.fold_left (+) 0 divisors in
   divisors_sum = n
 
 let isPerfect_tests = 

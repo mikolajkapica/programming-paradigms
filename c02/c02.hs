@@ -24,8 +24,6 @@ root3 a | a > 1 = aux a (a/3)
         where aux a x | abs (x^3 - a) < 1/10^15 = x
                       | otherwise = aux a (x - (x^3 - a) / (3 * x^2))
 
-
-
 -- 4
 getZeroLTuples :: [(a, b)] -> a
 getZeroLTuples [(_, _), (x, _)] = x

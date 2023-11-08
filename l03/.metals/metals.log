@@ -1,0 +1,120 @@
+2023.11.08 20:45:01 INFO  Started: Metals version 1.1.0 in folders '/home/mak/programming_paradigms/l03' for client Visual Studio Code 1.84.1.[0m
+2023.11.08 20:45:04 INFO  Running List(/home/mak/.local/share/coursier/bin/scala-cli, setup-ide, /home/mak/programming_paradigms/l03)[0m
+2023.11.08 20:45:04 INFO  Attempting to connect to the build server...[0m
+2023.11.08 20:45:04 INFO  Running BSP server List(/home/mak/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/mak/programming_paradigms/l03/.scala-build/ide-options-v2.json, /home/mak/programming_paradigms/l03)[0m
+2023.11.08 20:45:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mak/programming_paradigms/l03/.metals/bsp.trace.json or /home/mak/.cache/metals/bsp.trace.json[0m
+2023.11.08 20:45:04 INFO  BSP server: Starting compilation server[0m
+2023.11.08 20:45:05 INFO  time: Connected to build server in 1.35s[0m
+2023.11.08 20:45:05 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.11.08 20:45:05 INFO  time: Imported build in 0.12s[0m
+2023.11.08 20:45:06 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 20:45:07 INFO  time: compiled l03_bd2c96d2de in 1.13s[0m
+2023.11.08 20:45:07 INFO  time: indexed workspace in 2.04s[0m
+2023.11.08 21:26:03 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:06 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:06 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:07 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:20 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:20 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:22 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:23 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:26:24 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+Nov 08, 2023 9:26:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:26:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+2023.11.08 21:27:27 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:27:45 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:27:45 INFO  time: compiled l03_bd2c96d2de in 0.4s[0m
+2023.11.08 21:28:02 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:28:02 INFO  time: compiled l03_bd2c96d2de in 0.32s[0m
+2023.11.08 21:28:04 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:28:04 INFO  time: compiled l03_bd2c96d2de in 0.17s[0m
+2023.11.08 21:28:06 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:28:06 INFO  time: compiled l03_bd2c96d2de in 0.16s[0m
+2023.11.08 21:28:20 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:28:20 INFO  time: compiled l03_bd2c96d2de in 81ms[0m
+2023.11.08 21:29:25 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:29:25 INFO  time: compiled l03_bd2c96d2de in 0.11s[0m
+Nov 08, 2023 9:30:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/mak/programming_paradigms/l03/.metals/.reports/metals-full/2023-11-08/r_compiler-error_(l03_bd2c96d2de)_21-30-14-962.md
+Nov 08, 2023 9:30:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 939
+2023.11.08 21:30:44 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:30:44 INFO  time: compiled l03_bd2c96d2de in 96ms[0m
+2023.11.08 21:30:55 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:30:55 INFO  time: compiled l03_bd2c96d2de in 77ms[0m
+2023.11.08 21:31:17 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:31:17 INFO  time: compiled l03_bd2c96d2de in 54ms[0m
+2023.11.08 21:31:36 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:31:36 INFO  time: compiled l03_bd2c96d2de in 0.77s[0m
+2023.11.08 21:31:51 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:31:51 INFO  time: compiled l03_bd2c96d2de in 0.38s[0m
+2023.11.08 21:31:54 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:31:54 INFO  time: compiled l03_bd2c96d2de in 0.26s[0m
+2023.11.08 21:32:10 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:32:10 INFO  time: compiled l03_bd2c96d2de in 0.29s[0m
+2023.11.08 21:32:13 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:32:13 INFO  time: compiled l03_bd2c96d2de in 0.28s[0m
+2023.11.08 21:32:18 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:32:18 INFO  time: compiled l03_bd2c96d2de in 0.23s[0m
+2023.11.08 21:32:21 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:32:21 INFO  time: compiled l03_bd2c96d2de in 0.22s[0m
+2023.11.08 21:32:48 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:32:48 INFO  time: compiled l03_bd2c96d2de in 78ms[0m
+2023.11.08 21:33:08 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:33:08 INFO  time: compiled l03_bd2c96d2de in 86ms[0m
+Nov 08, 2023 9:33:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1477
+2023.11.08 21:33:38 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:33:38 INFO  time: compiled l03_bd2c96d2de in 91ms[0m
+2023.11.08 21:33:41 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:33:41 INFO  time: compiled l03_bd2c96d2de in 94ms[0m
+Nov 08, 2023 9:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1728
+2023.11.08 21:35:25 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:35:25 INFO  time: compiled l03_bd2c96d2de in 0.11s[0m
+2023.11.08 21:35:46 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:35:46 INFO  time: compiled l03_bd2c96d2de in 56ms[0m
+2023.11.08 21:36:01 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:36:01 INFO  time: compiled l03_bd2c96d2de in 57ms[0m
+2023.11.08 21:36:03 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:36:03 INFO  time: compiled l03_bd2c96d2de in 46ms[0m
+2023.11.08 21:36:04 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:36:04 INFO  time: compiled l03_bd2c96d2de in 53ms[0m
+2023.11.08 21:36:13 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:36:13 INFO  time: compiled l03_bd2c96d2de in 0.63s[0m
+2023.11.08 21:36:18 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:36:18 INFO  time: compiled l03_bd2c96d2de in 0.21s[0m
+2023.11.08 21:38:56 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:39:00 WARN  Could not find semantic tokens for: file:///home/mak/programming_paradigms/l03/l03.scala[0m
+2023.11.08 21:39:14 INFO  compiling l03_bd2c96d2de (1 scala source)[0m
+2023.11.08 21:39:14 INFO  time: compiled l03_bd2c96d2de in 0.23s[0m
+Nov 08, 2023 9:40:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2222
+Nov 08, 2023 9:40:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:40:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:40:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:40:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:40:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:40:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:43:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 08, 2023 9:44:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2233
+Nov 08, 2023 9:44:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2235
+Nov 08, 2023 9:47:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2242
+Nov 08, 2023 9:47:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2244
+2023.11.08 21:55:03 INFO  Shutting down server[0m
+2023.11.08 21:55:03 INFO  shutting down Metals[0m
+2023.11.08 21:55:03 INFO  Shut down connection with build server.[0m
+2023.11.08 21:55:03 INFO  Exiting server[0m

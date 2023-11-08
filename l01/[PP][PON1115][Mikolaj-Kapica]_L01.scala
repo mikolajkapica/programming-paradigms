@@ -26,16 +26,15 @@ def sumProd_tests =
 
 def isPerfect(n: Int): Boolean = {
     if (n < 1) throw new IllegalArgumentException("n must be natural (n > 0)")
-    val divisors = {
-        def aux(current: Int, divisors: List[Int]): List[Int] = {
-            if (current == 0) divisors
-            else if (n % current == 0) aux(current - 1, current :: divisors)
-            else aux(current - 1, divisors)
+    val divisorsSum = {
+        def aux(current: Int, divisorsSum: Int): Int = {
+            if (current == 0) divisorsSum 
+            else if (n % current == 0) aux(current - 1, current + divisorsSum)
+            else aux(current - 1, divisorsSum)
         }
-        aux(n-1, List())
+        aux(n / 2, 0)
     }
-    val divisors_sum = divisors.foldLeft(0)(_ + _)
-    divisors_sum == n
+    divisorsSum == n
 }
 
 def isPerfect_tests =
@@ -47,7 +46,7 @@ def isPerfect_tests =
 
 def insert[A](lst: List[A], x: A, pos: Int): List[A] = {
     def aux(lst: List[A], current: Int): List[A] =
-        if lst.isEmpty then List(x)
+        if lst == Nil then List(x)
         else if (current == pos) then x :: lst
         else lst.head :: aux(lst.tail, current + 1)
     if pos < 0 then x :: lst 
