@@ -22,21 +22,6 @@ let (>>^) f n =
 let print_list_ints = List.iter (fun x -> print_endline @@ string_of_int x)
 let print_list_strings = List.iter (fun x -> print_endline x)
 
-
-
-(* modyfikacja *)
-
-let (>=>) f n =
-  fun x ->
-  let rec aux f n =
-    if n = 0 then (x, x - 1 :: [])
-    else 
-      let back = aux f (n-1) in
-      (f @@ fst back - 1, (f @@ fst back - 1) :: snd back)
-  in 
-  if n <= 0 then []
-  else snd @@ aux f (n-1)
-
 let () =
   let succ = fun x -> x + 1 in
   let test1 = (succ >> 5) 5 = [9;8;7;6;5] in
@@ -60,13 +45,3 @@ let () =
   print_endline @@ string_of_bool test6;
   print_endline @@ string_of_bool test7;
   print_endline @@ string_of_bool test8;
-
-  print_endline "modyfikacja";
-  let test1 = ((fun x -> x + 1) >=> 5) 5 = [5; 5; 5; 5; 4] in
-  let test2 = ((fun x -> x * x) >=> 5) 5 = [2517530625; 50176; 225; 16; 4] in
-  let test3 = ((fun x -> x + x) >=>  0) 0 = [] in
-  let test4 = ((fun x -> x + x) >=>  5) 1 = [-14; -6; -2; 0; 0] in
-  print_endline @@ string_of_bool test1;
-  print_endline @@ string_of_bool test2;
-  print_endline @@ string_of_bool test3;
-  print_endline @@ string_of_bool test4;
