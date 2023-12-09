@@ -171,10 +171,25 @@ let pathBFS item disk =
   | Disk (letter, folders) -> 
     aux (Queue.enqueue Queue.empty ((Folder (String.make 1 letter ^ ":", folders)), "")) []
     |> Option.map (fun x -> (String.sub x 1 (String.length x - 1)) ^ "\\")
-
-
-
-
+  
+(* MODIFICATION *)
+let insert disk path item = 
+  let rec aux items_left path_left =
+    match path_left, items_left with
+    | h :: [], Folder(name, items) :: folder_tail -> 
+      if h = name then Folder(name, item :: items) :: folder_tail
+      else aux (List.tl items_left) path_left
+    | h :: t, Folder(name, items) :: folder_tail -> 
+        if h = name then Folder(name, aux items t) :: folder_tail
+        else aux (List.tl items_left) (path_left)
+    | h :: t, File(name, data) :: folder_tail ->
+        aux (List.tl items_left) (path_left)
+    | h :: [], [] -> Folder(h, [item]) :: []
+    | h :: t, [] -> Folder(h, aux [] t) :: []
+    | [], _ -> failwith "path is not found"
+  in
+  match disk with
+  | Disk (letter, folders) -> Disk (letter, aux folders path)
 
 let () =
     (* these should return SOME*)
@@ -193,6 +208,38 @@ let () =
       | Some x -> print_endline x
       | None -> print_endline "None"
     ) tests;
+
+    let inserttest1 = (insert disk ["Program Files"; "Microsoft Office"] (File ("emacs.exe", "010100")) = Disk ('C', [Folder ("Program Files", [Folder
+     ("Microsoft Office",
+      [File ("emacs.exe", "010100"); File ("Word.exe", "10101010");
+       Folder ("Browsers", [File ("Firefox.exe", "111101011111")]);
+       File ("Excel.exe", "101010000111");
+       File
+        ("PowerPoint.exe",
+         "1100110011001100110011001100110011001100110011001100110011001100")]);
+    Folder
+     ("Office stuff",
+      [File ("Word.exe", "10101010"); File ("Excel.exe", "101010000111");
+       File
+        ("PowerPoint.exe",
+         "1100110011001100110011001100110011001100110011001100110011001100");
+       File ("Firefox.exe", "111101011111")]);
+    File ("Word.exe", "10101010")])]))
+    in
+    let inserttest2 = (insert disk ["Program Files"; "Microsoft Office"; "Browsers2"] (File ("librewolf.exe", "010100")) = Disk ('C', [Folder ("Program Files", [Folder
+      ("Microsoft Office",
+       [Folder ("Browsers2", [File ("librewolf.exe", "010100")])]);
+     Folder
+      ("Office stuff",
+       [File ("Word.exe", "10101010"); File ("Excel.exe", "101010000111");
+        File
+         ("PowerPoint.exe",
+          "1100110011001100110011001100110011001100110011001100110011001100");
+        File ("Firefox.exe", "111101011111")]);
+     File ("Word.exe", "10101010")])]))
+    in 
+    print_endline (string_of_bool inserttest1);
+    print_endline (string_of_bool inserttest2);
 
 
   
