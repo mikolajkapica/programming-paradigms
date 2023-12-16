@@ -39,12 +39,21 @@ let skipponacci_memoized =
         result
   in skipponacci
 
+let make_skipponacci_list m num_of_elem =
+  let rec make_skipponacci_list m num_of_elem =
+    if num_of_elem = 0 then []
+    else skipponacci (m, num_of_elem) :: make_skipponacci_list m (num_of_elem-1)
+  in List.rev @@ make_skipponacci_list m num_of_elem
+
 let tests_a () =
   print_endline @@ "skipponacci (2, 2) = " ^ string_of_int @@ skipponacci (2, 2);
   print_endline @@ "skipponacci_memoized (2, 2) = " ^ string_of_int @@ skipponacci_memoized (2, 2);
   print_endline @@ "skipponacci (5, 3) = " ^ string_of_int @@ skipponacci (5, 3);
   print_endline @@ "skipponacci_memoized (5, 3) = " ^ string_of_int @@ skipponacci_memoized (5, 3); 
   print_endline @@ "skipponacci_memoized (12, 4) = " ^ string_of_int @@ skipponacci_memoized (12, 4);
+  print_endline @@ "list_of_skipponacci 3: ";
+  List.iter (fun x -> print_int x; print_string " ") @@ make_skipponacci_list 3 10;
+  print_newline
   ()
 
 
@@ -90,6 +99,7 @@ let binomial_coefficient n k =
 
 let skip_imp (m, n) =
   if m = 1 then fib_imp n
+  else if n < 1 then 0
   else
     let sum = ref 0 in
     (* let coeffs = fib_triangle m in *)
@@ -99,10 +109,24 @@ let skip_imp (m, n) =
     done;
     !sum
 
+let skip_naive (m, n) =
+  fib_imp (2 * (m - 1) + n)
+
+let make_array_of_skip m num_of_elem =
+  let arr = Array.make num_of_elem 0 in
+  for i = 1 to num_of_elem do
+    arr.(i-1) <- skip_imp (m, i);
+  done;
+  arr
+
 let tests_b () =
   print_endline @@ "skip_imp (2, 2) = " ^ string_of_int @@ skip_imp (2, 2);
   print_endline @@ "skip_imp (5, 3) = " ^ string_of_int @@ skip_imp (5, 3);
   print_endline @@ "skip_imp (12, 4) = " ^ string_of_int @@ skip_imp (12, 4);
+  print_endline @@ "skip_naive (12, 4) = " ^ string_of_int @@ skip_naive (12, 4);
+  print_endline @@ "make_array_of_skip 3: ";
+  Array.iter (fun x -> print_int x; print_string " ") @@ make_array_of_skip 3 10;
+  print_newline
   ()
 
 let () =
