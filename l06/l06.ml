@@ -72,7 +72,7 @@ let fib_imp n =
     done;
     !c
 
-let fib_triangle row =
+let pascal_triangle row =
   let triangle = Array.make_matrix row row 0 in
   for i = 0 to row-1 do
     triangle.(i).(0) <- 1;
@@ -102,7 +102,7 @@ let skip_imp (m, n) =
   else if n < 1 then 0
   else
     let sum = ref 0 in
-    (* let coeffs = fib_triangle m in *)
+    (* let coeffs = pascal_triangle m in *)
     for i = 0 to (m-1) do
       (* sum := !sum + coeffs.(i) * (fib_imp (i + n)); *)
       sum := !sum + binomial_coefficient (m-1) i * (fib_imp (i + n));
@@ -119,13 +119,31 @@ let make_array_of_skip m num_of_elem =
   done;
   arr
 
+let print_array_of_skip m num_of_elem =
+  let arr = make_array_of_skip m num_of_elem in
+  Array.iter (fun x -> print_int x; print_string " ") arr;
+  print_newline
+  ()
+
+let print_list_of_skip m num_of_elem =
+  let list = make_skipponacci_list m num_of_elem in
+  List.iter (fun x -> print_int x; print_string " ") list;
+  print_newline
+  ()
+
 let tests_b () =
-  print_endline @@ "skip_imp (2, 2) = " ^ string_of_int @@ skip_imp (2, 2);
+  print_endline "TESTS B";
+  (* print_endline @@ "skip_imp (2, 2) = " ^ string_of_int @@ skip_imp (2, 2);
   print_endline @@ "skip_imp (5, 3) = " ^ string_of_int @@ skip_imp (5, 3);
+  print_endline @@ "skip_imp (3, 5) = " ^ string_of_int @@ skip_imp (3, 5);
   print_endline @@ "skip_imp (12, 4) = " ^ string_of_int @@ skip_imp (12, 4);
   print_endline @@ "skip_naive (12, 4) = " ^ string_of_int @@ skip_naive (12, 4);
+  print_endline @@ "skip_naive (3, 5) = " ^ string_of_int @@ skip_naive (3, 5);
+  print_endline @@ "skip_naive (1, 1) = " ^ string_of_int @@ skip_naive (1, 1);
   print_endline @@ "make_array_of_skip 3: ";
-  Array.iter (fun x -> print_int x; print_string " ") @@ make_array_of_skip 3 10;
+  Array.iter (fun x -> print_int x; print_string " ") @@ make_array_of_skip 3 10; *)
+  print_array_of_skip 1 10;
+  print_list_of_skip 1 10;
   print_newline
   ()
 
