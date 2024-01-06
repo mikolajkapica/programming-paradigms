@@ -54,26 +54,32 @@ def skip_imp(m: Int, n: Int): Int =
         IH: skipponacci (m, n) = fib (2 * (m - 1) + n)
         Then: skipponacci (m+1, n) = fib (2 * (m - 1) + n + 2)
         skipponacci (m+1, n) = skipponacci (m, n) + skipponacci (m, n+1)
-                            = fib (2 * (m - 1) + n) + fib (2 * (m - 1) + n + 1)
-                            [knowing that fib n + fib (n+1) = fib (n+2)]
-                            = fib (2 * (m - 1) + n + 2)
+                             = fib (2 * (m - 1) + n) + fib (2 * (m - 1) + n + 1)
+                             [knowing that fib n + fib (n+1) = fib (n+2)]
+                             = fib (2 * (m - 1) + n + 2)
     QED
 */
 
-def make_array_of_skip(m: Int, num_of_elem: Int): Array[Int] =
+def make_skipponacci_array(m: Int, num_of_elem: Int): Array[Int] =
     val arr = Array.ofDim[Int](num_of_elem)
-    for (i <- 1 to num_of_elem) {
-        arr(i-1) = skip_imp (m, i)
+    var a = skip_imp (m, 1)
+    var b = skip_imp (m, 2)
+    var c = 0
+    for (i <- 0 to num_of_elem - 1) {
+        arr(i) = a
+        c = a + b
+        a = b
+        b = c
     }
     arr
 
 def tests: Boolean =
-    val test1 = make_skipponacci_list(1, 10) == List(1,1,2,3,5,8,13,21,34,55)
-    val test2 = make_array_of_skip   (1, 10) sameElements Array(1,1,2,3,5,8,13,21,34,55)
-    val test3 = make_skipponacci_list(2, 10) == List(2,3,5,8,13,21,34,55,89,144)
-    val test4 = make_array_of_skip   (2, 10) sameElements Array(2,3,5,8,13,21,34,55,89,144)
-    val test5 = make_skipponacci_list(3, 10) == List(5,8,13,21,34,55,89,144,233,377)
-    val test6 = make_array_of_skip   (3, 10) sameElements Array(5,8,13,21,34,55,89,144,233,377)
-    val test7 = make_skipponacci_list(4, 10) == List(13,21,34,55,89,144,233,377,610,987)
-    val test8 = make_array_of_skip   (4, 10) sameElements Array(13,21,34,55,89,144,233,377,610,987)
+    val test1 = make_skipponacci_list (1, 10) ==           List(1,1,2,3,5,8,13,21,34,55)
+    val test2 = make_skipponacci_array(1, 10) sameElements Array(1,1,2,3,5,8,13,21,34,55)
+    val test3 = make_skipponacci_list (2, 10) ==           List(2,3,5,8,13,21,34,55,89,144)
+    val test4 = make_skipponacci_array(2, 10) sameElements Array(2,3,5,8,13,21,34,55,89,144)
+    val test5 = make_skipponacci_list (3, 10) ==           List(5,8,13,21,34,55,89,144,233,377)
+    val test6 = make_skipponacci_array(3, 10) sameElements Array(5,8,13,21,34,55,89,144,233,377)
+    val test7 = make_skipponacci_list (4, 10) ==           List(13,21,34,55,89,144,233,377,610,987)
+    val test8 = make_skipponacci_array(4, 10) sameElements Array(13,21,34,55,89,144,233,377,610,987)
     test1 && test2 && test3 && test4 && test5 && test6 && test7 && test8

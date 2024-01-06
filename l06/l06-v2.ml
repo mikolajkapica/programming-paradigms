@@ -53,28 +53,34 @@ let skip_imp (m, n) =
     IH: skipponacci (m, n) = fib (2 * (m - 1) + n)
     Then: skipponacci (m+1, n) = fib (2 * (m - 1) + n + 2)
     skipponacci (m+1, n) = skipponacci (m, n) + skipponacci (m, n+1)
-                        = fib (2 * (m - 1) + n) + fib (2 * (m - 1) + n + 1)
-                        [knowing that fib n + fib (n+1) = fib (n+2)]
-                        = fib (2 * (m - 1) + n + 2)
+                         = fib (2 * (m - 1) + n) + fib (2 * (m - 1) + n + 1)
+                         [knowing that fib n + fib (n+1) = fib (n+2)]
+                         = fib (2 * (m - 1) + n + 2)
   QED
 *)
 
 
-let make_array_of_skip m num_of_elem =
+let make_skipponacci_array m num_of_elem =
   let arr = Array.make num_of_elem 0 in
-  for i = 1 to num_of_elem do
-    arr.(i-1) <- skip_imp (m, i);
+  let a = ref @@ skip_imp (m, 1) in
+  let b = ref @@ skip_imp (m, 2) in
+  let c = ref 0 in
+  for i = 0 to num_of_elem-1 do
+    arr.(i) <- !a;
+    c := !a + !b;
+    a := !b;
+    b := !c;
   done;
   arr
 
 (* TESTS *)
 let tests = 
-  let test1 = make_skipponacci_list 1 10 = [1;1;2;3;5;8;13;21;34;55] in
-  let test2 = make_array_of_skip    1 10 = [|1;1;2;3;5;8;13;21;34;55|] in
-  let test3 = make_skipponacci_list 2 10 = [2;3;5;8;13;21;34;55;89;144] in
-  let test4 = make_array_of_skip    2 10 = [|2;3;5;8;13;21;34;55;89;144|] in
-  let test5 = make_skipponacci_list 3 10 = [5;8;13;21;34;55;89;144;233;377] in
-  let test6 = make_array_of_skip    3 10 = [|5;8;13;21;34;55;89;144;233;377|] in
-  let test7 = make_skipponacci_list 4 10 = [13;21;34;55;89;144;233;377;610;987] in
-  let test8 = make_array_of_skip    4 10 = [|13;21;34;55;89;144;233;377;610;987|] in
+  let test1 = make_skipponacci_list  1 10 = [1;1;2;3;5;8;13;21;34;55] in
+  let test2 = make_skipponacci_array 1 10 = [|1;1;2;3;5;8;13;21;34;55|] in
+  let test3 = make_skipponacci_list  2 10 = [2;3;5;8;13;21;34;55;89;144] in
+  let test4 = make_skipponacci_array 2 10 = [|2;3;5;8;13;21;34;55;89;144|] in
+  let test5 = make_skipponacci_list  3 10 = [5;8;13;21;34;55;89;144;233;377] in
+  let test6 = make_skipponacci_array 3 10 = [|5;8;13;21;34;55;89;144;233;377|] in
+  let test7 = make_skipponacci_list  4 10 = [13;21;34;55;89;144;233;377;610;987] in
+  let test8 = make_skipponacci_array 4 10 = [|13;21;34;55;89;144;233;377;610;987|] in
   test1 && test2 && test3 && test4 && test5 && test6 && test7 && test8
