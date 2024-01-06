@@ -5,7 +5,7 @@ odkrycia odkrytego losu nie zmienia stanu na stole.”
 *)
 
 type 'a los = unit -> 'a nagroda
-and 'a nagroda = Nagroda of 'a | ListaNagrod of 'a los list
+and 'a nagroda = Nagroda of 'a | ListaLosow of 'a los list
 and 'a odkyta_nagroda_lub_los = OdkytaNagroda of 'a | Los of 'a los
 and 'a table = 'a odkyta_nagroda_lub_los list
 
@@ -20,9 +20,10 @@ and 'a table = 'a odkyta_nagroda_lub_los list
       | OdkytaNagroda s -> List.rev acc @ tab
       | Los f -> match f () with
         | Nagroda s -> List.rev acc @ (OdkytaNagroda s :: t)
-        | ListaNagrod l -> List.rev acc @ (List.map (fun x -> Los x) l) @ t
+        | ListaLosow l -> List.rev acc @ (List.map (fun x -> Los x) l) @ t
     ) in
     aux tab i [] *)
+
 
 let rec buyTicket i tab =
   match (i, tab) with
@@ -30,7 +31,7 @@ let rec buyTicket i tab =
   | 0, (Los f :: t) -> (
     match f () with
     | Nagroda s -> OdkytaNagroda s :: t
-    | ListaNagrod l -> List.map (fun x -> Los x) l @ t
+    | ListaLosow l -> List.map (fun x -> Los x) l @ t
   )
   | _, [] -> []
   | _, (h::t) -> h :: buyTicket (i-1) t
@@ -42,10 +43,11 @@ let rec list_for_all f l1 l2 =
   | _, [] -> false
   | (h1::t1), (h2::t2) -> f h1 h2 && list_for_all f t1 t2
 
+
 let rec (<=>) f1 f2 =
   match f1 (), f2 () with
   | (Nagroda s1, Nagroda s2) -> s1 = s2
-  | (ListaNagrod l1, ListaNagrod l2) -> list_for_all (<=>) l1 l2
+  | (ListaLosow l1, ListaLosow l2) -> list_for_all (<=>) l1 l2
   | _ -> false
 
 
@@ -58,7 +60,7 @@ let rec (=?=) tab1 tab2 =
   | (Los f1 :: t1), (Los f2 :: t2) -> (
     match (f1 (), f2 ()) with
     | (Nagroda s1, Nagroda s2) -> s1 = s2 && t1 =?= t2
-    | (ListaNagrod l1, ListaNagrod l2) -> List.for_all2 (<=>) l1 l2 && t1 =?= t2
+    | (ListaLosow l1, ListaLosow l2) -> list_for_all (<=>) l1 l2 && t1 =?= t2
     | _ -> false
   )
   | _ -> false
@@ -68,43 +70,43 @@ let rec (=?=) tab1 tab2 =
 let test = 
   let table: string table = [Los (fun () -> Nagroda "komputer"); 
                              Los (fun () -> Nagroda "telefon"); 
-                             Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                             Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                          (fun () -> Nagroda "klawiatura")]);
                              Los (fun () -> Nagroda "myszka");
-                             Los (fun () -> ListaNagrod [(fun () -> Nagroda "karta graficzna")])
+                             Los (fun () -> ListaLosow [(fun () -> Nagroda "karta graficzna")])
                             ]
   in 
   let test1 = (buyTicket 0 table) =?= [OdkytaNagroda "komputer"; 
                                    Los (fun () -> Nagroda "telefon"); 
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                                (fun () -> Nagroda "klawiatura")]);
                                    Los (fun () -> Nagroda "myszka");
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "karta graficzna")])
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "karta graficzna")])
                                   ]
   and test2 = buyTicket 1 table =?= [Los (fun () -> Nagroda "komputer");
                                    OdkytaNagroda "telefon"; 
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                                (fun () -> Nagroda "klawiatura")]);
                                    Los (fun () -> Nagroda "myszka");
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "karta graficzna")])
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "karta graficzna")])
                                   ]
   and test3 = buyTicket 2 table =?= [Los (fun () -> Nagroda "komputer"); 
                                     Los (fun () -> Nagroda "telefon"); 
                                     Los (fun () -> Nagroda "myszka");
                                     Los (fun () -> Nagroda "klawiatura");
                                     Los (fun () -> Nagroda "myszka");
-                                    Los (fun () -> ListaNagrod [(fun () -> Nagroda "karta graficzna")])
+                                    Los (fun () -> ListaLosow [(fun () -> Nagroda "karta graficzna")])
                                   ] 
   and test4 = buyTicket 3 table =?= [Los (fun () -> Nagroda "komputer"); 
                                    Los (fun () -> Nagroda "telefon"); 
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                                (fun () -> Nagroda "klawiatura")]);
                                    OdkytaNagroda "myszka";
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "karta graficzna")])
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "karta graficzna")])
                                   ]
   and test5 = buyTicket 4 table =?= [Los (fun () -> Nagroda "komputer"); 
                                    Los (fun () -> Nagroda "telefon"); 
-                                   Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                                   Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                                (fun () -> Nagroda "klawiatura")]);
                                    Los (fun () -> Nagroda "myszka");
                                    Los (fun () -> Nagroda "karta graficzna")
@@ -112,7 +114,7 @@ let test =
   and test6 = buyTicket 4 [] =?= []
   and test7 = buyTicket 4 table |> buyTicket 4 =?= [Los (fun () -> Nagroda "komputer"); 
                                                   Los (fun () -> Nagroda "telefon"); 
-                                                  Los (fun () -> ListaNagrod [(fun () -> Nagroda "myszka"); 
+                                                  Los (fun () -> ListaLosow [(fun () -> Nagroda "myszka"); 
                                                                               (fun () -> Nagroda "klawiatura")]);
                                                   Los (fun () -> Nagroda "myszka");
                                                   OdkytaNagroda "karta graficzna"
