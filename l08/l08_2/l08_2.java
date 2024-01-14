@@ -21,6 +21,7 @@ class Box {
     private BoxType type;
     private double innerVolume;
     private double outerVolume;
+    private double volume;
     private double[] specialParameters;
 
     Box(BoxType type, double[] specialParameters) {
@@ -29,31 +30,47 @@ class Box {
 
         switch (type) {
             case CYLINDER_BOX:
+                if (specialParameters.length != 2) {
+                    throw new IllegalArgumentException("Invalid number of parameters");
+                }
                 double radius = specialParameters[0];
                 double height = specialParameters[1];
                 this.innerVolume = Math.pow((2 * radius / Math.sqrt(2)), 2) * height;
                 this.outerVolume = Math.pow((2 * radius), 2) * height;
+                this.volume = Math.PI * Math.pow(radius, 2) * height;
                 break;
             case CUBOID_BOX:
+                if (specialParameters.length != 2) {
+                    throw new IllegalArgumentException("Invalid number of parameters");
+                }
                 double baseArea = specialParameters[0];
                 height = specialParameters[1];
                 this.innerVolume = baseArea * height;
                 this.outerVolume = baseArea * height;
+                this.volume = baseArea * height;
                 break;
             case DELTOID_BASE_BOX:
+                if (specialParameters.length != 3) {
+                    throw new IllegalArgumentException("Invalid number of parameters");
+                }
                 double d1 = specialParameters[0];
                 double d2 = specialParameters[1];
                 height = specialParameters[2];
                 this.innerVolume = (d1 + d2) / 2 * height;
                 this.outerVolume = (d1 + d2) / 2 * height;
+                this.volume = (d1 + d2) / 2 * height;
                 break;
             case TRIANGLE_BASE_BOX:
+                if (specialParameters.length != 3) {
+                    throw new IllegalArgumentException("Invalid number of parameters");
+                }
                 double a = specialParameters[0];
                 double h = specialParameters[1];
                 double H = specialParameters[2];
                 double area = (a * h) / 2;
                 this.innerVolume = area * H;
                 this.outerVolume = area * H;
+                this.volume = area * H;
                 break;
         }
     }
@@ -64,6 +81,10 @@ class Box {
 
     public double getOuterCuboidVolume() {
         return outerVolume;
+    }
+
+    public double getVolume() {
+        return volume;
     }
 
     public boolean canContain(Box box) {
@@ -81,13 +102,13 @@ class Box {
     public String toString() {
         switch (type) {
             case CYLINDER_BOX:
-                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CylinderBox: radius=" + specialParameters[0] + " height=" + specialParameters[1];
+                return "Box: Volume=" + volume + " InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CylinderBox: radius=" + specialParameters[0] + " height=" + specialParameters[1];
             case CUBOID_BOX:
-                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] + " height=" + specialParameters[1];
+                return "Box: Volume=" + volume + " InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] + " height=" + specialParameters[1];
             case DELTOID_BASE_BOX:
-                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] * specialParameters[1] + " height=" + specialParameters[2] + " DeltoidBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
+                return "Box: Volume=" + volume + " InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] * specialParameters[1] + " height=" + specialParameters[2] + " DeltoidBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
             case TRIANGLE_BASE_BOX:
-                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + (specialParameters[0] * specialParameters[1]) / 2 + " height=" + specialParameters[2] + " TriangleBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
+                return "Box: Volume=" + volume + " InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + (specialParameters[0] * specialParameters[1]) / 2 + " height=" + specialParameters[2] + " TriangleBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
             default:
                 throw new IllegalArgumentException("Invalid BoxType");
         }
@@ -102,11 +123,7 @@ class Elf {
     }
 
     public void addBoxes(List<Box> boxes) {
-        boxes.sort((b1, b2) -> {
-            double avgVolume1 = (b1.getInnerCuboidVolume() + b1.getOuterCuboidVolume()) / 2;
-            double avgVolume2 = (b2.getInnerCuboidVolume() + b2.getOuterCuboidVolume()) / 2;
-            return (int) -(avgVolume1 - avgVolume2);
-        }); 
+        boxes.sort((b1, b2) -> (int) (b2.getVolume() - b1.getVolume()));
         for (Box box : boxes) {
             addBox(box);
         }
@@ -140,11 +157,15 @@ class Elf {
 
         result.append("Elf boxes:\n");
 
-        for (List<Box> boxList : boxes) {
-            for (Box box : boxList) {
+        for (int i = 0; i < this.getBoxes().size(); i++) {
+            result.append("Box list [" + i + "]:");
+            for (Box box : this.getBoxes().get(i)) {
                 result.append(box.toString() + "\n");
             }
+            result.append("\n");
         }
+
+        result.append("Total volume: " + this.getTotalVolume());
 
         return result.toString();
     }
@@ -178,13 +199,6 @@ public class l08_2 {
         Elf elf = new Elf();
         elf.addBoxes(boxes);;;
 
-        for (int i = 0; i < elf.getBoxes().size(); i++) {
-            System.out.println("Box list [" + i + "]:");
-            for (Box box : elf.getBoxes().get(i)) {
-                System.out.println(box.toString());
-            }
-        }
-
-        System.out.println("Total volume: " + elf.getTotalVolume());
+        System.out.println(elf.toString());
     }
 }

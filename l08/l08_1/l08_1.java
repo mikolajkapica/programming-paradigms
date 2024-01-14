@@ -13,10 +13,12 @@ taka nie istnieje, (20 pkt.)
 abstract class Box {
     private double innerCuboidVolume;
     private double outerCuboidVolume;
+    private double volume;
 
-    public Box(double innerCuboidVolume, double outerCuboidVolume) {
+    public Box(double innerCuboidVolume, double outerCuboidVolume, double volume) {
         this.innerCuboidVolume = innerCuboidVolume;
         this.outerCuboidVolume = outerCuboidVolume;
+        this.volume = volume;
     }
 
     public double getInnerCuboidVolume() {
@@ -27,12 +29,16 @@ abstract class Box {
         return outerCuboidVolume;
     }
 
+    public double getVolume() {
+        return volume;
+    }
+
     public boolean canContain(Box box) {
         return box.getOuterCuboidVolume() < innerCuboidVolume;
     }
 
     public String toString() {
-        return "Box: InnerCuboidVolume=" + innerCuboidVolume + " outerCuboidVolume=" + outerCuboidVolume;
+        return "Box: Volume=" + volume + " InnerCuboidVolume=" + innerCuboidVolume + " outerCuboidVolume=" + outerCuboidVolume;
     }
 }
 
@@ -45,7 +51,8 @@ class CylinderBox extends Box {
         // double outerSide = 2 * radius;                          |  2r = a
         // double innerCuboidVolume = Math.pow(innerSide, 2) * height;   |  a^2 * h
         // double outerCuboidVolume = Math.pow(outerSide, 2) * height;   |  a^2 * h
-        super(Math.pow((2 * radius / Math.sqrt(2)), 2) * height, Math.pow(2 * radius, 2) * height);
+        // double volume = Math.PI * Math.pow(radius, 2) * height;       |  pi * r^2 * h
+        super(Math.pow((2 * radius / Math.sqrt(2)), 2) * height, Math.pow(2 * radius, 2) * height, Math.PI * Math.pow(radius, 2) * height);
 
         this.radius = radius;
         this.height = height;
@@ -61,7 +68,7 @@ class CuboidBox extends Box {
     public double height;
 
     public CuboidBox(double baseArea, double height) {
-        super(baseArea * height, baseArea * height);
+        super(baseArea * height, baseArea * height, baseArea * height);
 
         this.baseArea = baseArea;
         this.height = height;
@@ -125,11 +132,7 @@ class Elf {
     }
 
     public void addBoxes(List<Box> boxes) {
-        boxes.sort((b1, b2) -> {
-            double avgVolume1 = (b1.getInnerCuboidVolume() + b1.getOuterCuboidVolume()) / 2;
-            double avgVolume2 = (b2.getInnerCuboidVolume() + b2.getOuterCuboidVolume()) / 2;
-            return (int) -(avgVolume1 - avgVolume2);
-        });
+        boxes.sort((b1, b2) -> (int)(b2.getVolume() - b1.getVolume()));
         for (Box box : boxes) {
             addBox(box);
         }
@@ -163,11 +166,15 @@ class Elf {
 
         result.append("Elf boxes:\n");
 
-        for (List<Box> boxList : boxes) {
-            for (Box box : boxList) {
+        for (int i = 0; i < this.getBoxes().size(); i++) {
+            result.append("Box list [" + i + "]:");
+            for (Box box : this.getBoxes().get(i)) {
                 result.append(box.toString() + "\n");
             }
+            result.append("\n");
         }
+
+        result.append("Total volume: " + this.getTotalVolume());
 
         return result.toString();
     }
@@ -200,13 +207,6 @@ public class l08_1 {
         Elf elf = new Elf();
         elf.addBoxes(boxes);;
 
-        for (int i = 0; i < elf.getBoxes().size(); i++) {
-            System.out.println("Box list [" + i + "]:");
-            for (Box box : elf.getBoxes().get(i)) {
-                System.out.println(box.toString());
-            }
-        }
-
-        System.out.println("Total volume: " + elf.getTotalVolume());
+        System.out.println(elf.toString());
     }
 }
