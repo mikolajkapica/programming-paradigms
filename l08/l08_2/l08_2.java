@@ -1,4 +1,6 @@
+package l08_2;
 import java.util.List;
+
 import java.util.ArrayList;
 
 enum BoxType {
@@ -19,7 +21,6 @@ class Box {
     private BoxType type;
     private double innerVolume;
     private double outerVolume;
-    private double volume;
     private double[] specialParameters;
 
     Box(BoxType type, double[] specialParameters) {
@@ -48,9 +49,11 @@ class Box {
                 break;
             case TRIANGLE_BASE_BOX:
                 double a = specialParameters[0];
-                height = specialParameters[1];
-                this.innerVolume = a * height / 2;
-                this.outerVolume = a * height / 2;
+                double h = specialParameters[1];
+                double H = specialParameters[2];
+                double area = (a * h) / 2;
+                this.innerVolume = area * H;
+                this.outerVolume = area * H;
                 break;
         }
     }
@@ -64,7 +67,7 @@ class Box {
     }
 
     public boolean canContain(Box box) {
-        return box.getOuterCuboidVolume() <= getInnerCuboidVolume();
+        return box.getOuterCuboidVolume() < getInnerCuboidVolume();
     }
 
     public BoxType getType() {
@@ -78,13 +81,13 @@ class Box {
     public String toString() {
         switch (type) {
             case CYLINDER_BOX:
-                return "Box: innerCuboid= " + innerVolume + " outerCuboid= " + outerVolume + " subclass of CylinderBox: radius=" + specialParameters[0] + " height=" + specialParameters[1];
+                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CylinderBox: radius=" + specialParameters[0] + " height=" + specialParameters[1];
             case CUBOID_BOX:
-                return "Box: innerCuboid= " + innerVolume + " outerCuboid= " + outerVolume + " subclass of CuboidBox: baseArea=" + specialParameters[0] + " height=" + specialParameters[1];
+                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] + " height=" + specialParameters[1];
             case DELTOID_BASE_BOX:
-                return "Box: innerCuboid= " + innerVolume + " outerCuboid= " + outerVolume + " >: DeltoidBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
+                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + specialParameters[0] * specialParameters[1] + " height=" + specialParameters[2] + " DeltoidBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
             case TRIANGLE_BASE_BOX:
-                return "Box: innerCuboid= " + innerVolume + " outerCuboid= " + outerVolume + " >: TriangleBox: " + specialParameters[0] + " " + specialParameters[1];
+                return "Box: InnerCuboid=" + innerVolume + " OuterCuboid=" + outerVolume + " >: CuboidBox: baseArea=" + (specialParameters[0] * specialParameters[1]) / 2 + " height=" + specialParameters[2] + " TriangleBox: " + specialParameters[0] + " " + specialParameters[1] + " " + specialParameters[2];
             default:
                 throw new IllegalArgumentException("Invalid BoxType");
         }
@@ -98,6 +101,17 @@ class Elf {
         boxes = new ArrayList<List<Box>>();
     }
 
+    public void addBoxes(List<Box> boxes) {
+        boxes.sort((b1, b2) -> {
+            double avgVolume1 = (b1.getInnerCuboidVolume() + b1.getOuterCuboidVolume()) / 2;
+            double avgVolume2 = (b2.getInnerCuboidVolume() + b2.getOuterCuboidVolume()) / 2;
+            return (int) -(avgVolume1 - avgVolume2);
+        }); 
+        for (Box box : boxes) {
+            addBox(box);
+        }
+    }
+
     public void addBox(Box box) {
         if (boxes.size() == 0) {
             List<Box> newBox = new ArrayList<Box>();
@@ -105,7 +119,7 @@ class Elf {
             boxes.add(newBox);
         } else {
             for (List<Box> boxList : boxes) {
-                if (boxList.get(0).canContain(box)) {
+                if (boxList.get(boxList.size() - 1).canContain(box)) {
                     boxList.add(box);
                     return;
                 }
@@ -139,12 +153,38 @@ class Elf {
         double totalVolume = 0;
 
         for (List<Box> boxList : boxes) {
-            for (Box box : boxList) {
-                totalVolume += box.getOuterCuboidVolume();
-            }
+            totalVolume += boxList.get(0).getOuterCuboidVolume();
         }
 
         return totalVolume;
     }
 }
 
+
+public class l08_2 {
+    public static void main(String[] args) {
+        System.out.println("l08_2 --------------------");
+
+        List<Box> boxes = new ArrayList<Box>();
+        boxes.add(new Box(BoxType.CYLINDER_BOX, new double[] {1, 2}));
+        boxes.add(new Box(BoxType.CYLINDER_BOX, new double[] {2, 3}));
+        boxes.add(new Box(BoxType.CUBOID_BOX, new double[] {1, 2}));
+        boxes.add(new Box(BoxType.CUBOID_BOX, new double[] {2, 3}));
+        boxes.add(new Box(BoxType.DELTOID_BASE_BOX, new double[] {1, 2, 3}));
+        boxes.add(new Box(BoxType.DELTOID_BASE_BOX, new double[] {2, 3, 4}));
+        boxes.add(new Box(BoxType.TRIANGLE_BASE_BOX, new double[] {1, 2, 1}));
+        boxes.add(new Box(BoxType.TRIANGLE_BASE_BOX, new double[] {2, 3, 4}));
+
+        Elf elf = new Elf();
+        elf.addBoxes(boxes);;;
+
+        for (int i = 0; i < elf.getBoxes().size(); i++) {
+            System.out.println("Box list [" + i + "]:");
+            for (Box box : elf.getBoxes().get(i)) {
+                System.out.println(box.toString());
+            }
+        }
+
+        System.out.println("Total volume: " + elf.getTotalVolume());
+    }
+}

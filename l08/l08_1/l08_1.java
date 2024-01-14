@@ -1,4 +1,6 @@
+package l08_1;
 import java.util.List;
+
 import java.util.ArrayList;
 
 /* Zdefiniuj hierarchię klas dla Pudeł. Każdy rodzaj pudła posiada swoje własne parametry 
@@ -26,11 +28,11 @@ abstract class Box {
     }
 
     public boolean canContain(Box box) {
-        return box.getOuterCuboidVolume() <= innerCuboidVolume;
+        return box.getOuterCuboidVolume() < innerCuboidVolume;
     }
 
     public String toString() {
-        return "Box: " + innerCuboidVolume + " " + outerCuboidVolume;
+        return "Box: InnerCuboidVolume=" + innerCuboidVolume + " outerCuboidVolume=" + outerCuboidVolume;
     }
 }
 
@@ -50,7 +52,7 @@ class CylinderBox extends Box {
     }
 
     public String toString() {
-        return super.toString() + " subclass of CylinderBox: radius=" + radius + " height=" + height;
+        return super.toString() + " >: CylinderBox: radius=" + radius + " height=" + height;
     }
 }
 
@@ -66,7 +68,7 @@ class CuboidBox extends Box {
     }
 
     public String toString() {
-        return super.toString() + " subclass of CuboidBox: baseArea=" + baseArea + " height=" + height;
+        return super.toString() + " >: CuboidBox: baseArea=" + baseArea + " height=" + height;
     }
 }
 
@@ -91,16 +93,18 @@ class DeltoidBaseBox extends CuboidBox {
 class TriangleBaseBox extends CuboidBox {
     public double a;
     public double h;
+    public double H;
 
-    public TriangleBaseBox(double a, double h) {
-        super(a * h / 2, h);
+    public TriangleBaseBox(double a, double h, double H) {
+        super((a * h) / 2, H);
 
         this.a = a;
         this.h = h;
+        this.H = H;
     }
 
     public String toString() {
-        return super.toString() + " >: TriangleBaseBox: a=" + a + " h=" + h;
+        return super.toString() + " >: TriangleBaseBox: a=" + a + " h=" + h + " H=" + H;
     }
 }
 
@@ -120,6 +124,17 @@ class Elf {
         boxes = new ArrayList<List<Box>>();
     }
 
+    public void addBoxes(List<Box> boxes) {
+        boxes.sort((b1, b2) -> {
+            double avgVolume1 = (b1.getInnerCuboidVolume() + b1.getOuterCuboidVolume()) / 2;
+            double avgVolume2 = (b2.getInnerCuboidVolume() + b2.getOuterCuboidVolume()) / 2;
+            return (int) -(avgVolume1 - avgVolume2);
+        });
+        for (Box box : boxes) {
+            addBox(box);
+        }
+    }
+
     public void addBox(Box box) {
         if (boxes.size() == 0) {
             List<Box> newBox = new ArrayList<Box>();
@@ -127,7 +142,7 @@ class Elf {
             boxes.add(newBox);
         } else {
             for (List<Box> boxList : boxes) {
-                if (boxList.get(0).canContain(box)) {
+                if (boxList.get(boxList.size() - 1).canContain(box)) {
                     boxList.add(box);
                     return;
                 }
@@ -161,12 +176,37 @@ class Elf {
         double totalVolume = 0;
 
         for (List<Box> boxList : boxes) {
-            for (Box box : boxList) {
-                totalVolume += box.getOuterCuboidVolume();
-            }
+            totalVolume += boxList.get(0).getOuterCuboidVolume();
         }
 
         return totalVolume;
     }
 }
 
+public class l08_1 {
+    public static void main(String[] args) {
+        System.out.println("l08_1 --------------------");
+
+        List<Box> boxes = new ArrayList<Box>();
+        boxes.add(new CylinderBox(1, 2));
+        boxes.add(new CylinderBox(2, 3));
+        boxes.add(new CuboidBox(1, 2));
+        boxes.add(new CuboidBox(2, 3));
+        boxes.add(new DeltoidBaseBox(1, 2, 3));
+        boxes.add(new DeltoidBaseBox(2, 3, 4));
+        boxes.add(new TriangleBaseBox(1, 2, 1));
+        boxes.add(new TriangleBaseBox(2, 3, 4));
+
+        Elf elf = new Elf();
+        elf.addBoxes(boxes);;
+
+        for (int i = 0; i < elf.getBoxes().size(); i++) {
+            System.out.println("Box list [" + i + "]:");
+            for (Box box : elf.getBoxes().get(i)) {
+                System.out.println(box.toString());
+            }
+        }
+
+        System.out.println("Total volume: " + elf.getTotalVolume());
+    }
+}
