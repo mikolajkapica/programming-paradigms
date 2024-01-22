@@ -6,9 +6,10 @@ trait Figure {
     def area: Double
 }
 
-class Rectangle(private var _a: Double, private var _b: Double = 0) extends Figure {
+class Rectangle(private var _a: Double, private var _b: Double) extends Figure {
     if _a <= 0 || _b < 0 then throw new IllegalArgumentException("a and b must be positive")
-    if (b == 0) b = a // Square
+
+    def this(side: Double) = this(side, side)
 
     def a = _a
 
